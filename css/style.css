@@ -450,6 +450,7 @@ img.hamburger-icon {width: 36px;margin-left: 25px;}
 .header-section.fixed .nav-item .hamburger-icon{filter: invert(1);}
 
 
+
 /* Overview Section  */
 
 .overview-section{/* background: url('../images/background-images/7.png') no-repeat; */background-position: bottom;padding: 100px 0px 100px;/* background-size: 110% 70%; *//* margin-bottom: 30px; */}
@@ -1390,6 +1391,13 @@ section.page-inside-banner-head .inside-header-img {
 
     .d-view {display: none;}
     .m-view {display: block;}
+    
+    
+.project-details-ban.platter .animate-charcter {
+    font-size: 38px;
+    width: 90%;
+    letter-spacing: 6px;
+}
 
     /* Platter Box */
     .overview-platter .platter-head {font-size: 26px;width: 100%; text-align: center;}
