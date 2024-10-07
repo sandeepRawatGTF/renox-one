@@ -1,0 +1,11 @@
+.contact-left-section { padding: 0 30px;}
+.contact-left-section .head-section img{width: 60px;padding-bottom: 30px;}
+.contact-left-section .head-section p{color: #000000;font-size: 16px; padding: 0px; letter-spacing: 1px;word-spacing: 1px;font-weight: 500;
+    border-bottom: 2px solid transparent;  border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content; padding-bottom: 10px;}
+
+.contact-left-section .head-section h3{    font-size: 40px; margin: 0;padding: 25px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;}
+.contact-left-section .section-cont {padding: 20px 0;}
+.contact-left-section .section-cont h4{ font-size: 24px;letter-spacing: 0.6px;word-spacing: 1px;}
+.contact-left-section .section-cont div{display: flex;justify-content: start;align-items: center;gap: 30px;padding-top: 20px;}
+.contact-left-section .section-cont div img{width: 44px;}
+.contact-left-section .section-cont div p{font-size: 14px;}

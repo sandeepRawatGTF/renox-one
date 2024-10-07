@@ -1,0 +1,45 @@
+.overview-third-section-img{width: 50%;text-align: end;}
+.overview-third-section-img img{width: 80%;height: 600px;margin-top: -50px;}
+.overview-third-section-content { width: 50%;display: flex;align-items: center;}
+.overview-third-section-content p{line-height: 30px;font-size: 15px;text-align: start;letter-spacing: 0.8px;word-spacing: 0.5px;}
+.overview-para-details.right-bottom { width: 50%;padding-left: 50px;padding-top: 0;display: flex;align-items: center;}
+.overview-left-img img.img-fluid { margin-top: -50px;}
+.over-head .section-head {width: 20%;}
+
+
+/* Mission and Vision */
+
+section.mission-and-vision {background: #fff6ed;padding: 80px 0;text-align: center;}
+section.mission-and-vision .vision-section h3{ font-size: 44px;width: 100%;margin-top: 15px;text-transform: uppercase;margin-top: 15px;margin-bottom: 30px; letter-spacing: 1px;word-spacing: 2px;}
+section.mission-and-vision .vision-section p{line-height: 30px;font-size: 14px;letter-spacing: 0.8px;word-spacing: 0.5px;}
+section.mission-and-vision .vision-section img{   opacity: 0.7;}
+
+section.mission-and-vision .our-mission {width: 70%;margin: 100px auto 0;}
+section.mission-and-vision .our-mission h3{ font-size: 44px;width: 100%;margin-top: 15px;text-transform: uppercase;margin-top: 15px;margin-bottom: 30px; letter-spacing: 1px;word-spacing: 2px;}
+section.mission-and-vision .our-mission p{line-height: 30px;font-size: 14px;letter-spacing: 0.8px;word-spacing: 0.5px;}
+section.mission-and-vision .our-mission img{   opacity: 0.7;}
+
+
+.mission-highlights {margin-top: 40px;}
+p.mission-highlights-points {border: 1px solid #b48253;margin: 15px 15px;padding: 8px 20px;font-weight: 500;transition: all 0.3s linear;/* width: fit-content; */}
+section.mission-and-vision .our-mission .mission-highlights-points:hover{background: #b48253;color: #fff;}
+
+
+/* New Design */
+
+.mission-and-vision.new-design-mv .our-mission {width: 90%;margin: 0px auto 0;}
+.mission-and-vision.new-design-mv .vision-section {width: 90%;margin: 0px auto 0;}
+.mission-and-vision.new-design-mv .vision-section p {line-height: 30px;font-size: 14px;letter-spacing: 0.8px;word-spacing: 0.5px;}
+.mission-and-vision.new-design-mv .mission-highlights {margin-top: 80px;}
+
+
+
+@media(max-width:1600px){
+    .overview-third-section-content p { font-size: 13px;}
+    .overview-third-section-img img{width: 80%;height: 450px;object-fit: cover;}
+    section.mission-and-vision .vision-section h3 {font-size: 32px;}
+    .mission-and-vision.new-design-mv .vision-section p {font-size: 13px;}
+    .mission-and-vision.new-design-mv .our-mission p {font-size: 13px;}
+    section.mission-and-vision .our-mission h3 {font-size: 32px;}
+    p.mission-highlights-points {margin: 15px 0px;padding: 14px 20px;transition: all 0.3s linear;font-size: 14px;letter-spacing: 0.4px;}
+}
