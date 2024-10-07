@@ -357,7 +357,7 @@ h3.top-b-high{font-size:35px}
 
         .mega-menu-bottom-section .mega-download-btn a{text-decoration: none;color: #b98655;padding: 10px 25px;letter-spacing: 0.5px;border: 1px solid #b98655;word-spacing: 1px;font-weight: 600;font-size: 18px;/* font-family: var(--Abhaya_Libre); */}
         .mega-menu-bottom-section .mega-social-media-icons a img{width: 40px;margin-left: 20px;border: 1px solid #b98655;padding: 7px;border-radius: 50;}
-        .mega-menu-bottom-section .mega-social-media-icons a img:hover{background: #b98655;color: #fff;filter: invert(1) brightness(100);}
+        /* .mega-menu-bottom-section .mega-social-media-icons a img:hover{background: #b98655;color: #fff;filter: invert(1) brightness(100);} */
 
 
         .copyright-section { display: flex; gap: 30px; }
