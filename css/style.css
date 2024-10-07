@@ -1383,7 +1383,7 @@ section.page-inside-banner-head .inside-header-img {
 
     /* banner-section */
 
-    .banner-setion .banner img {height: 65vh;}
+    .banner-setion .banner img {height: 65vh; object-fit: cover;}
     .scroll-btn a { bottom: 0px; -webkit-transform: translateX(-50%);transform: translateX(-50%);}
     section#scroll-btn {display: none;}
     h1.animate-charcter { font-size: 42px; letter-spacing: 10px; display: none;}
