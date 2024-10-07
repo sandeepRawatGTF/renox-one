@@ -1386,7 +1386,12 @@ section.page-inside-banner-head .inside-header-img {
     .banner-setion .banner img {height: 65vh; object-fit: cover;}
     .scroll-btn a { bottom: 0px; -webkit-transform: translateX(-50%);transform: translateX(-50%);}
     section#scroll-btn {display: none;}
-    h1.animate-charcter { font-size: 42px; letter-spacing: 10px; display: none;}
+    h1.animate-charcter {font-size: 30px; letter-spacing: 6px;}
+
+    /* header */
+    .header-section img.project-logo{
+        width: 80px;
+    }
 
 
     /* Mega Menu */
@@ -1423,6 +1428,22 @@ section.page-inside-banner-head .inside-header-img {
 
     /* project types */
     .project-typology .project-types { flex-direction: column; }
+    .project-typology .project-types{
+        height:auto;
+        display: unset;
+    }
+    .project-typology .section{
+        height:250px;
+    }
+
+    .project-typology .section:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .project-typology .section .content a{
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
 
     /* counter section */
     .counter-content {width: 100%;text-align: left;}
