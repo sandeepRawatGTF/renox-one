@@ -1418,7 +1418,8 @@ section.page-inside-banner-head .inside-header-img {
     .second-half .main-project-type {font-size: 32px; padding: 10px 10px;}
     .mega-menu ul>li a {font-size: 20px;}
     .hamburder-section.open .last-part {display: none;}
-    .second-half .main-project-type {font-size: 20px;padding: 10px;margin-bottom: 30px;}
+    .second-half .main-project-type,
+    .second-half .main-project {font-size: 20px;padding: 10px;margin-bottom: 30px;}
     .hamburder-section.open .second-half {padding: 0px;}
     .hamburder-section.open .outer-half {padding: 0px;}
     .details-flex .sub-projects a {font-size: 20px;}
@@ -1546,6 +1547,14 @@ section.page-inside-banner-head .inside-header-img {
     .contact-left-section .head-section h3 {font-size: 28px;}
     .nri-form { padding: 0;}
 
+
+    /* form */
+    .form-bottom .logo{
+        max-width: 80px;
+    }
+
    
  
 } 
+
+/* end of 767 */
