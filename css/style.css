@@ -310,6 +310,20 @@ h3.top-b-high{font-size:35px}
 
         .second-half {width: auto;padding: 0px;opacity: 0;transform: translateX(-80%);transition: all 1s ease-in-out;display: flex;flex-direction: column;justify-content: start;margin-top: 0px;}
         .second-half .main-project-type{color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 32px;letter-spacing: 1px;margin-bottom: 30px;border: 1px solid;padding: 10px 30px;font-family: var(--Abhaya_Libre);transition: transform 2s linear;}
+        a.main-project {
+            color: #b98655;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 32px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border: 1px solid;
+            padding: 10px 30px;
+            font-family: var(--Abhaya_Libre);
+            transition: transform 2s linear;
+        }
         .second-half .main-project-type:hover img{transform: translateX(25%);}
 
         .mega-menu ul>li {list-style: none;color: #fff;text-transform: uppercase;font-weight: bold;padding-bottom: 20px;cursor: pointer;}
@@ -1179,7 +1193,7 @@ section.page-inside-banner-head .inside-header-img {
 
 
 .page-inside-banner-head{position:relative;overflow:hidden}
-.page-inside-banner-head .insidepage-header-content{position:absolute;top:40%;left:0;text-align:center;width:100%;z-index:9;color:#fff}
+.page-inside-banner-head .insidepage-header-content{position:absolute;top:50%;transform: translateY(-50%); left:0;text-align:center;width:100%;z-index:1;color:#fff}
 .page-inside-banner-head .insidepage-header-content h4{font-size: 65px;text-transform:uppercase;letter-spacing: 35px;padding-left: 46px;}
 
 
@@ -1231,6 +1245,7 @@ section.page-inside-banner-head .inside-header-img {
     .hamburder-section.open .outer-half {padding: 0 30px;}
     .mega-menu ul>li a {font-size: 28px;}
     .second-half .main-project-type {font-size: 26px;}
+    a.main-project{font-size: 26px;}
 
     .mega-menu-bottom-section {  gap: 50px; }
     .mega-menu-bottom-section .mega-download-btn a {padding: 10px 15px;font-size: 14px;width: fit-content;}
