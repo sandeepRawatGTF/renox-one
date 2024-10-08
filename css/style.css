@@ -1231,8 +1231,15 @@ section.page-inside-banner-head .inside-header-img {
 
 
 
+.platter-project-details h3.platter-project-name{text-align:left;margin-bottom:15px}
+.platter-project-details p.platter-project-content{text-align:left;margin-bottom:35px}
+.platter-project-details .platter-project-btn{justify-content:start;margin-top:30px}
 
 
+section#our-projects .project-img-platter {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 
 @media (max-width: 1600px) {
 
@@ -1253,7 +1260,7 @@ section.page-inside-banner-head .inside-header-img {
     .nav-item .nav-link { font-size: 11px;}
     a.nav-link.contact-btn { font-size: 10px;}
     .hamb-line {height: 2px; }
-    .header-section.fixed .project-logo-fixed {display: block;width: 100px;}
+    .header-section.fixed .project-logo-fixed {display: block;width: 92px;}
 
     /* Mega Menu */
     .mega-top-bar {width: 85%;}
