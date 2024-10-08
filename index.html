@@ -1171,6 +1171,7 @@ $(document).on("click", "#send-it", function() {
 <script>
 // Select all main project types and back button
 const projectTypes = document.querySelectorAll('.main-project-type');  // Residential, Commercial, Hospitality links
+const hospitalityType = document.querySelector('.main-project')
 const dropdown = document.querySelector('.second-half-dropdown');  // Dropdown container
 const subProjects = document.querySelectorAll('.sub-projects');  // All sub-project sections
 const backBtn = document.querySelector('.back-btn');  // Back button
@@ -1180,6 +1181,7 @@ projectTypes.forEach((projectType) => {
     projectType.addEventListener('click', (e) => {
         e.preventDefault();  // Prevent link behavior
         
+        hospitalityType.style.display="none"
         // Get the clicked class (residential-type, commercial-type, hospitality-type)
         const selectedType = projectType.classList[1];  // Assumes the second class is the type
 
@@ -1200,6 +1202,7 @@ projectTypes.forEach((projectType) => {
 // Back button functionality to go back to the main project types
 backBtn.addEventListener('click', () => {
     // Hide the dropdown
+    hospitalityType.style.display="block"
     dropdown.style.display = 'none';
     
     // Show all main project types again
