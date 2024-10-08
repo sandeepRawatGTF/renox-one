@@ -1389,6 +1389,14 @@ section.page-inside-banner-head .inside-header-img {
 
 @media (max-width: 767px) {
 
+    .mb_sm_30{
+        margin-bottom:30px!important;
+    }
+
+    .mb_sm_40{
+        margin-bottom:40px!important;
+    }
+
     .d-view {display: none;}
     .m-view {display: block;}
     
@@ -1447,13 +1455,20 @@ section.page-inside-banner-head .inside-header-img {
     .overview-section { padding: 35px 0px 0px;}
     .overview-padding {padding: 0 0px;}
     .over-head {width: 100%;}
-    .overview-section .logo-icon {padding-bottom: 25px;}
+    .overview-section .logo-icon {padding-bottom: 15px;}
     .over-head .section-head {width: 70%;font-size: 18px;}
-    .over-head .section-head-para {font-size: 26px;}
-    .overview-right-img { display: none;}
+    .over-head .section-head-para {font-size: 26px; margin-bottom: 20px;}
+    .overview-right-img { width:100%;}
+    .overview-right-img img.img-fluid{
+        width:100%;
+        height:auto;
+        object-fit: unset;
+    }
     .overview-left-img {width: 100%;}
     .overview-left-img img.img-fluid {width: 100%;height: 300px;}
     .overview-para-details.right-bottom {width: 100%;padding-top: 40px;padding-left: 0px;}
+    .overview-para-details.right-bottom{width:100%!important; padding-left:0!important;}
+    .overview-third-section-content{width:100%!important;}
 
     /* project types */
     .project-typology .project-types { flex-direction: column; }
@@ -1559,6 +1574,65 @@ section.page-inside-banner-head .inside-header-img {
     /* form */
     .form-bottom .logo{
         max-width: 80px;
+    }
+
+    section.page-inside-banner-head .inside-header-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+    }
+
+    .page-inside-banner-head .insidepage-header-content h4{
+        font-size: 32px;
+        letter-spacing: 8px;
+        padding-left: 0;
+    }
+
+    .insidepage-header-content .breadcrumbs{
+        margin-top: 10px;
+    }
+
+    .insidepage-header-content .breadcrumbs a,
+    .insidepage-header-content .breadcrumbs{
+        font-size:12px;
+        letter-spacing: 1px;
+    }
+
+    .page-inside-banner-head{
+        position: relative;
+        padding: 130px 15px 50px;
+    }
+
+    .page-inside-banner-head .insidepage-header-content{
+        position: relative;
+        top: unset;
+        transform: unset;
+        background: unset;
+    }
+
+    .over-head .section-head{
+        width:100%!important;
+        display:block;
+    }
+
+    .overview-para-details p,
+    .overview-third-section-content p{
+        line-height: 22px!important;
+        font-size: 13px!important;
+        word-spacing: 0!important;
+        letter-spacing: 0!important;
+        text-align: justify!important;
+    }
+
+    .overview-left-img img.img-fluid{
+        margin-top:0!important;
+    }
+
+    .overview-para-details{
+        padding: 0px 0px 15px;
     }
 
    
