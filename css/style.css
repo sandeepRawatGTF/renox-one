@@ -682,7 +682,7 @@ from{transform:scale(0);opacity:0}
 
 
 
-.fixed-tooltip{position:fixed;left:51px;bottom:16px;z-index: 999;display: none;}
+.fixed-tooltip{position:fixed;left:51px;bottom:16px;z-index: 99;display: none;}
 .tooltip{position:relative;display:inline-block;width:100%;opacity:1}
 .tooltip .tooltiptext{background-color:#fff;color:#fff;text-align:center;border-radius: 0px;padding:5px 0;font-size:14px;border:1px solid silver;font-weight:600}
 /*.tooltip .tooltiptext::after{content:"";position:absolute;top:103%;left:50%;margin-left:-10px;border-width:10px;border-style:solid;border-color:silver transparent transparent;z-index:-1}*/
