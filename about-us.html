@@ -68,17 +68,18 @@
               <div class="navbar-sec-mega-menu">
                 <!-- <img class="mega-menu-logo" src="images/renox.png" alt=""> -->
                 <ul class="outer-half openSideMenu asidebar">
-                      <li><a href="index.html" class="custom_link">Home</a></li>
-                      <li><a href="about-us.html" class="custom_link">About us</a></li>
-                      <li><a href="#our-projects" class="custom_link">Our Projects</a></li>
-                      <li><a href="#" class="custom_link">Our Blogs</a></li>
-                      <li><a href="contact-us.html" class="custom_link">Contact Us</a></li>
+                  <li><a href="index.html" class="custom_link">Home</a></li>
+                  <li><a href="about-us.html" class="custom_link">About us</a></li>
+                  <li><a href="#our-projects" class="custom_link custom_navlink">Our Projects</a></li>
+                  <li><a href="#" class="custom_link">Our Blogs</a></li>
+                  <li><a href="contact-us.html" class="custom_link">Contact Us</a></li>
                 </ul>
               </div>
+
               <div class="second-half">
                     <a class="main-project-type residential-type" href="">Residential <img class="second-half-right-arrow" src="images/icons/arrow-right.png" alt=""></a>
                     <a class="main-project-type commercial-type" href="">Commercial <img class="second-half-right-arrow" src="images/icons/arrow-right.png" alt=""></a>
-                    <a class="main-project-type" href="#">Hospitality <img class="second-half-right-arrow" src="images/icons/arrow-right.png" alt=""></a>
+                    <a class="main-project" target="_blank" href="https://hotelrajplaza.com/">Hospitality <img class="second-half-right-arrow" src="images/icons/arrow-right.png" alt=""></a>
 
                     <div class="second-half-dropdown">
                       <div class="details-flex">
@@ -112,15 +113,15 @@
             </div>
 
             <div class="mega-menu-bottom-section">
-              <div class="mega-download-btn">
-                <a href="">Download Brochure</a>
+              <div class="mega-download-btn"> 
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="custom_link">Download Brochure</a>
               </div>
-              <div class="mega-social-media-icons">
+              <!-- <div class="mega-social-media-icons">
                 <a href=""> <img src="images/social-media/facebook.png" alt=""></a>
                 <a href=""> <img src="images/social-media/instagram.png" alt=""></a>
                 <a href=""> <img src="images/social-media/linkedin.png" alt=""></a>
                 <a href=""> <img src="images/social-media/twitter.png" alt=""></a>
-              </div>
+              </div> -->
               <div class="copyright-section">
                 <p>Copyright © Renox Group 2024. All Rights Reserved </p>
                 <p>Crafted by GTF Technologies</p>
@@ -459,16 +460,16 @@
         </div>
         <div class="border-btm"></div>
       
-        <div class="bottom-footer-section">
+        <div class="bottom-footer-section justify-content-center">
           <div class="copyright">
             <p>Copyright © Renox Group 2024. All Rights Reserved</p> | <a href="https://gtftechnologies.com/" style="color:#fff;text-decoration:none;">Crafted by GTF Technologies</a>
           </div>
-          <p class="btm-foot social-media-links">
+          <!-- <p class="btm-foot social-media-links">
             <a href="">LinkedIn</a>
             <a href="">Twitter</a>
             <a href="">Instagram</a>
             <a href="">Facebook</a>
-          </p>
+          </p> -->
         </div>
       
       <div class="text-left1 text-center moretext" style="display: none;">
@@ -492,8 +493,6 @@
           </a>-->
       </div>
     </div>
-      
-
     </div>
 
   </section>
@@ -886,47 +885,50 @@ $(document).on("click", "#send-it", function() {
 </script>
 
 <script>
-// Select all main project types and back button
-const projectTypes = document.querySelectorAll('.main-project-type');  // Residential, Commercial, Hospitality links
-const dropdown = document.querySelector('.second-half-dropdown');  // Dropdown container
-const subProjects = document.querySelectorAll('.sub-projects');  // All sub-project sections
-const backBtn = document.querySelector('.back-btn');  // Back button
-
-// Function to show the correct sub-projects based on the clicked type
-projectTypes.forEach((projectType) => {
-    projectType.addEventListener('click', (e) => {
-        e.preventDefault();  // Prevent link behavior
-        
-        // Get the clicked class (residential-type, commercial-type, hospitality-type)
-        const selectedType = projectType.classList[1];  // Assumes the second class is the type
-
-        // Hide all main project types
-        projectTypes.forEach(pt => pt.style.display = 'none');
-        
-        // Hide all sub-projects
-        subProjects.forEach(subProject => subProject.style.display = 'none');
-
-        // Show the corresponding sub-project section
-        document.getElementById(selectedType).style.display = 'block';
-
-        // Show the dropdown
-        dropdown.style.display = 'block';
-    });
-});
-
-// Back button functionality to go back to the main project types
-backBtn.addEventListener('click', () => {
-    // Hide the dropdown
-    dropdown.style.display = 'none';
-    
-    // Show all main project types again
-    projectTypes.forEach(pt => pt.style.display = 'block');
-    
-    // Hide all sub-projects
-    subProjects.forEach(subProject => subProject.style.display = 'none');
-});
-
-</script>
+  // Select all main project types and back button
+  const projectTypes = document.querySelectorAll('.main-project-type');  // Residential, Commercial, Hospitality links
+  const hospitalityType = document.querySelector('.main-project')
+  const dropdown = document.querySelector('.second-half-dropdown');  // Dropdown container
+  const subProjects = document.querySelectorAll('.sub-projects');  // All sub-project sections
+  const backBtn = document.querySelector('.back-btn');  // Back button
+  
+  // Function to show the correct sub-projects based on the clicked type
+  projectTypes.forEach((projectType) => {
+      projectType.addEventListener('click', (e) => {
+          e.preventDefault();  // Prevent link behavior
+          
+          hospitalityType.style.display="none"
+          // Get the clicked class (residential-type, commercial-type, hospitality-type)
+          const selectedType = projectType.classList[1];  // Assumes the second class is the type
+  
+          // Hide all main project types
+          projectTypes.forEach(pt => pt.style.display = 'none');
+          
+          // Hide all sub-projects
+          subProjects.forEach(subProject => subProject.style.display = 'none');
+  
+          // Show the corresponding sub-project section
+          document.getElementById(selectedType).style.display = 'block';
+  
+          // Show the dropdown
+          dropdown.style.display = 'block';
+      });
+  });
+  
+  // Back button functionality to go back to the main project types
+  backBtn.addEventListener('click', () => {
+      // Hide the dropdown
+      hospitalityType.style.display="block"
+      dropdown.style.display = 'none';
+      
+      // Show all main project types again
+      projectTypes.forEach(pt => pt.style.display = 'block');
+      
+      // Hide all sub-projects
+      subProjects.forEach(subProject => subProject.style.display = 'none');
+  });
+  
+  </script>
 </body>
 
 </html>
