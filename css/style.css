@@ -1377,6 +1377,11 @@ section.page-inside-banner-head .inside-header-img {
 canvas#pieChart {height: 600px!important; width: auto!important; margin-left: 100px!important;}
 
 
+.container-fluid.nri-container.gray-section.home-loan {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
 
 .platter-project-details h3.platter-project-name{text-align:left;margin-bottom: 5px;color: #b98655;}
 .platter-project-details p.platter-project-content{text-align:left;margin-bottom: 35px;}
@@ -1388,7 +1393,7 @@ section#our-projects .project-img-platter {
     margin-top: 50px;
 }
 canvas#pieChart {
-    height: 343px !important;
+    height: 418px !important;
 }
 
 .area_converter_page form{padding:60px;background-color:#fff;border-radius:5px;outline:1px solid #0000002b;outline-offset:-15px}
@@ -1408,7 +1413,7 @@ canvas#pieChart {
 .area_converter_page .sub_head{font-size:16px;font-weight:600;letter-spacing:.5px;margin-bottom:20px;color:#212427}
 .area_converter_page .btns{margin-bottom:30px}
 .area_converter_page .result_box{padding:10px 20px;border-radius:0;font-size:14px;color:#000;width:100%;height:100px;margin:10px 0 0;border:1px solid #000;font-size:20px;letter-spacing:.5px}
-.nri-container .row-2{align-items:center;margin-top:60px;gap:30px 0}
+.nri-container .row-2{align-items:center;margin-top:60px;gap: 51px 0;}
 .csr-card{padding:30px;background-color:#fff}
 .csr-card h4{margin-bottom:15px;color:#a97036}
 .nri-form{background-color:#fff;padding:30px;border-radius:20px;margin-top:50px;width:100%;margin-left:auto}
@@ -1430,7 +1435,7 @@ canvas#pieChart {
 .faq-section .accordion button .icon::after{display:block;position:absolute;content:'';top:5px;left:9px;width:2px;height:10px;background:currentColor}
 .faq-section .accordion button[aria-expanded='true']{color:#a97036}
 .faq-section .accordion button[aria-expanded='true'] + .accordion-content{opacity:1;max-height:9em;will-change:opacity,max-height}
-.faq-section .accordion .accordion-content p{text-align:left;padding:30px;padding-left:0;padding-bottom:20px;letter-spacing:1px;line-height:28px;font-size:14px}
+.faq-section .accordion .accordion-content p{text-align:left;padding:30px;padding-left:0;padding-bottom:20px;letter-spacing:1px;line-height: 25px;font-size:14px;text-align: justify;}
 .faq-section .accordion button{position:relative;display:block;text-align:left;width:100%;padding:1em 0;color:#000;font-size:1.15rem;font-weight:400;border:none;background:none;outline:none}
 .faq-section .accordion button .accordion-title{padding:1em 1.5em 1em 0}
 .faq-container-box.nri-investors-content .accordion-title{font-size:19px!important}
@@ -1439,6 +1444,12 @@ canvas#pieChart {
 .my_container .accordion-item{border:none}
 .my_container .accordion-flush .accordion-item .accordion-button:focus{box-shadow:none}
 .my_container .accordion-flush .accordion-item .accordion-button:hover{color:#a97036}
+
+.bank-logo-img {width: auto; height: 106px;margin: 0px auto; display: block;}
+
+.property-content-box .para-content{line-height:26px;font-size:14px;text-align:start;letter-spacing:.8px;word-spacing:.5px}
+.property-content-box h4{font-size: 18px;width:100%;text-transform:uppercase;margin-top:30px;margin-bottom: 10px;letter-spacing:1px;word-spacing:2px;text-align:start}
+.property-content-box{padding:60px;background-color:#d9ae8514}
 
 @media (max-width: 1600px) {
 
