@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
 /* Navbar section */
 
 section.header-section{position:absolute;width:100%;padding:0px 0;z-index:9;transition:all .5s ease 0s;color:#000;border-bottom: 1px solid #e2e2e261;}
-.header-section.fixed{position:fixed;top:0;background: #ffffff;transition:all .4s ease-in-out 0;z-index:9999;/* box-shadow:rgba(181,181,181,0.7) 0 8px 6px -6px; */}
+.header-section.fixed{position:fixed;top:0;background: #ffffff;transition:all .4s ease-in-out 0;z-index:999;/* box-shadow:rgba(181,181,181,0.7) 0 8px 6px -6px; */}
 .nav-item .nav-link {
     color: #ffffff;
     letter-spacing: 0.7px;
@@ -682,7 +682,7 @@ from{transform:scale(0);opacity:0}
 
 
 
-.fixed-tooltip{position:fixed;left:51px;bottom:16px;z-index: 999;display: none;}
+.fixed-tooltip{position:fixed;left:51px;bottom:16px;z-index: 99;display: none;}
 .tooltip{position:relative;display:inline-block;width:100%;opacity:1}
 .tooltip .tooltiptext{background-color:#fff;color:#fff;text-align:center;border-radius: 0px;padding:5px 0;font-size:14px;border:1px solid silver;font-weight:600}
 /*.tooltip .tooltiptext::after{content:"";position:absolute;top:103%;left:50%;margin-left:-10px;border-width:10px;border-style:solid;border-color:silver transparent transparent;z-index:-1}*/
@@ -690,7 +690,9 @@ from{transform:scale(0);opacity:0}
 .showNumber{display:block;}
 .tooltip .tooltiptext a{text-decoration: none;color: #a57241 !important;!i;!;}
 
-
+section#our-projects {
+    padding-bottom: 100px;
+}
 
 
   /* counter-section */
@@ -865,7 +867,7 @@ p.btm-foot {font-size: 13px;text-align: center;color: #fff;line-height: 23px;let
 
 /* Popup Form  */
 
-.modal-dialog .modal-content {border-radius: 0px; background:var(--color1)} /*background: #2F4137;*/
+.modal-dialog .modal-content {border-radius: 0px; background:var(--color1);z-index: 9999;} /*background: #2F4137;*/
 .popup-form {margin: 0px;padding: 45px 30px;border-radius: 0px;outline: rgba(255, 255, 255, 0.2) solid 1px;outline-offset: 5px;}
 .popup-form button.btn-close {position: absolute;right: 30px;top: 30px;filter: invert(1);border: 1px solid;border-radius: 5px;padding: 10px;}
 .footer-form .form-bottom {text-align: center;}
