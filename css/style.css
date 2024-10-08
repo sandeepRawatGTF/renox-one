@@ -1230,6 +1230,37 @@ section.page-inside-banner-head .inside-header-img {
 .contact-left-section .section-cont div p{font-size: 14px;}
 
 
+/* EMI Calculator Css */
+
+.home_loan_page #price{color:#130f31;font-size:25px}
+.home_loan_page .loan-details{width:90%;display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px}
+.home_loan_page #price-container{color:#1d6093;margin-top:30px;margin-bottom:20px}
+.home_loan_page #price-container::before{content:"Monthly Payable:";font-size:12px;display:block}
+.home_loan_page .view .single{margin-bottom:15px}
+.home_loan_page .input_amt{position:relative;max-width:200px;width:100%;height:40px}
+.home_loan_page .input_amt::before{position:absolute;content:'';left:0;top:0;height:100%;z-index:1;display:flex;align-items:center}
+.home_loan_page .input_amt input{position:absolute;content:'';left:0;top:0;font-weight:500;width:100%;height:100%;border:none;border-bottom:1px solid #ced4da;outline:none;padding-left:15px}
+.home_loan_page input[type=number]::-webkit-outer-spin-button,.home_loan_page input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.home_loan_page input[type=number]{-moz-appearance:textfield}
+.home_loan_page input[type="range"]{-webkit-appearance:none;margin:10px 0;width:100%}
+.home_loan_page input[type="range"]:focus{outline:none}
+.home_loan_page input[type="range"]::-webkit-slider-runnable-track{width:100%;height:6px;cursor:pointer;background:#1d6093;border-radius:10px}
+.home_loan_page input[type="range"]::-webkit-slider-thumb{box-shadow:2px 2px 5px #b3b3b3,-1px -1px 3px grey;border:5px solid #fff;height:20px;width:20px;border-radius:50%;background:#1d6093;cursor:pointer;margin-top:-6px;-webkit-appearance:none}
+.home_loan_page input[type="range"]:focus::-webkit-slider-runnable-track{background:#b3b3b3}
+.home_loan_page input[type="range"]::-moz-range-track{width:100%;height:6px;cursor:pointer;background:#1d6093;border-color:transparent;border-width:16px 0;color:transparent;border-radius:10px}
+.home_loan_page input[type="range"]::-moz-range-thumb{box-shadow:2px 2px 5px #b3b3b3,-1px -1px 3px grey;border:5px solid #fff;height:20px;width:20px;border-radius:50%;background:#1d6093;cursor:pointer;margin-top:-6px}
+.home_loan_page input[type="range"]::-ms-track{width:100%;height:6px;cursor:pointer;background:#1d6093;border-color:transparent;border-width:16px 0;color:transparent;border-radius:10px}
+.home_loan_page input[type="range"]::-ms-fill-lower{background:#1d6093;border-radius:5px}
+.home_loan_page input[type="range"]::-ms-fill-upper{background:#1d6093;border-radius:5px}
+.home_loan_page input[type="range"]::-ms-thumb{box-shadow:2px 2px 5px #b3b3b3,-1px -1px 3px grey;border:5px solid #fff;height:20px;width:20px;border-radius:50%;background:#1d6093;cursor:pointer;margin-top:-6px}
+.home_loan_page input[type="range"]:focus::-ms-fill-lower{background:#1d6093}
+.home_loan_page input[type="range"]:focus::-ms-fill-upper{background:#1d6093}
+.bank-logos-container p{font-size:16px;font-weight:600}
+.details {text-align: left; margin-bottom: 20px!important;}
+
+canvas#pieChart {height: 600px!important; width: auto!important; margin-left: 100px!important;}
+
+
 
 .platter-project-details h3.platter-project-name{text-align:left;margin-bottom: 5px;color: #b98655;}
 .platter-project-details p.platter-project-content{text-align:left;margin-bottom: 35px;}
@@ -1240,6 +1271,58 @@ section#our-projects .project-img-platter {
     margin-bottom: 50px;
     margin-top: 50px;
 }
+canvas#pieChart {
+    height: 343px !important;
+}
+
+.area_converter_page form{padding:60px;background-color:#fff;border-radius:5px;outline:1px solid #0000002b;outline-offset:-15px}
+.area_converter_page form .entry_title{font-size:20px;font-family:'Teachers-Regular'}
+.area_converter_page .entry_input{-moz-appearance:textfield;height:46px;border-radius:0;font-size:14px;color:#000;min-width:200px;margin:30px 0;border-color:#000}
+.area_converter_page .sub_head{font-size:16px;font-weight:600;letter-spacing:.5px;margin-bottom:20px;color:#212427}
+.area_converter_page form ul{display:flex;flex-wrap:wrap;list-style-type:none;padding-left:0;margin-left:-5px;margin-right:-5px;margin-bottom:21px}
+.area_converter_page form li{padding:5px;flex-grow:1}
+.area_converter_page input[type=radio]{display:none}
+.area_converter_page input[type=radio]:checked+label{background-color:#444445;color:#fff;transform:translateY(-2px);border:0 solid #fff}
+.area_converter_page form .single{border:none;padding:10px;height:-webkit-fill-available;text-align:center;display:block;cursor:pointer;border-radius:5px;border:1px solid #7e7e7e;height:55px;display:grid;align-items:center}
+.area_converter_page .single p{font-size:13px;letter-spacing:.5px;line-height:19px;color:#000}
+.area_converter_page .single p span{display:block}
+.area_converter_page input[type=radio]:checked+label p{color:#fff}
+.area_converter_page .sub_head{font-size:16px;font-weight:600;letter-spacing:.5px;margin-bottom:20px;color:#212427}
+.area_converter_page .btns .btn{height:46px;border-radius:0;padding:5px 30px;font-size:13px;text-transform:uppercase;letter-spacing:2px;background-color:#a77d5a;color:#fff}
+.area_converter_page .sub_head{font-size:16px;font-weight:600;letter-spacing:.5px;margin-bottom:20px;color:#212427}
+.area_converter_page .btns{margin-bottom:30px}
+.area_converter_page .result_box{padding:10px 20px;border-radius:0;font-size:14px;color:#000;width:100%;height:100px;margin:10px 0 0;border:1px solid #000;font-size:20px;letter-spacing:.5px}
+.nri-container .row-2{align-items:center;margin-top:60px;gap:30px 0}
+.csr-card{padding:30px;background-color:#fff}
+.csr-card h4{margin-bottom:15px;color:#a97036}
+.nri-form{background-color:#fff;padding:30px;border-radius:20px;margin-top:50px;width:100%;margin-left:auto}
+.nri-form .nri-form-heading{margin-bottom:20px;font-size:30px;color:#a97036;letter-spacing:.5px}
+.nri-form .flex-form-group{display:block;align-items:center;justify-content:space-between}
+.nri-form .form-group{width:calc(100% - 0px);margin-bottom:16px}
+.nri-form .form-control{border-style:solid;border-width:1px;border-radius:5PX;padding:15px;width:100%;font-size:16px}
+.nri-form .btn-custom-2{background-color:#a77d5a;padding:8px 30px;color:#fff;font-size:13px;margin:0 auto;display:block;margin-top:30px;border-radius:0;letter-spacing:.5px}
+.faq-container-box.nri-investors-content{width:100%;max-width:100%;margin-top:50px}
+.faq-container-box{background-color:#fff;padding:30px;max-width:80%;margin:0 auto}
+.faq-section .accordion .accordion-item button[aria-expanded='true']{border-bottom:1px solid #a97036}
+.faq-section .accordion button[aria-expanded='true']{color:#a97036}
+.faq-section .accordion button{position:relative;display:block;text-align:left;width:100%;padding:1em 0;color:#000;font-size:1.15rem;font-weight:400;border:none;background:none;outline:none}
+.faq-container-box.nri-investors-content .accordion-title{font-size:19px!important;padding:1em 1.5em 1em 0}
+.faq-section .accordion button .icon{display:inline-block;position:absolute;top:18px;right:0;width:22px;height:22px;border:1px solid;border-radius:22px;font-size:1.15rem;font-weight:400;text-align:left}
+.faq-section .accordion button .icon::before{display:block;position:absolute;content:'';top:9px;left:5px;width:10px;height:2px;background:currentColor}
+.faq-section .accordion button[aria-expanded='true']{color:#a97036}
+.faq-section .accordion button[aria-expanded='true'] .icon::after{width:0}
+.faq-section .accordion button .icon::after{display:block;position:absolute;content:'';top:5px;left:9px;width:2px;height:10px;background:currentColor}
+.faq-section .accordion button[aria-expanded='true']{color:#a97036}
+.faq-section .accordion button[aria-expanded='true'] + .accordion-content{opacity:1;max-height:9em;will-change:opacity,max-height}
+.faq-section .accordion .accordion-content p{text-align:left;padding:30px;padding-left:0;padding-bottom:20px;letter-spacing:1px;line-height:28px;font-size:14px}
+.faq-section .accordion button{position:relative;display:block;text-align:left;width:100%;padding:1em 0;color:#000;font-size:1.15rem;font-weight:400;border:none;background:none;outline:none}
+.faq-section .accordion button .accordion-title{padding:1em 1.5em 1em 0}
+.faq-container-box.nri-investors-content .accordion-title{font-size:19px!important}
+.faq-section .accordion button .icon{display:inline-block;position:absolute;top:18px;right:0;width:22px;height:22px;border:1px solid;border-radius:22px}
+.my_container .show{display:block;animation-name:initial;animation-duration:initial;transform:initial;opacity:1}
+.my_container .accordion-item{border:none}
+.my_container .accordion-flush .accordion-item .accordion-button:focus{box-shadow:none}
+.my_container .accordion-flush .accordion-item .accordion-button:hover{color:#a97036}
 
 @media (max-width: 1600px) {
 
@@ -1402,6 +1485,11 @@ section#our-projects .project-img-platter {
     .about-builder p {font-size: 12px;}
    
 }
+
+
+
+
+
 
 
 @media (max-width: 767px) {
@@ -1714,6 +1802,21 @@ section#our-projects .project-img-platter {
 
     section.footer-section{
         padding: 60px 0 30px;
+    }
+
+    .my_container .container {
+        min-width: 100%;
+    }
+
+    .contact-container .footer-form {
+        margin: 0;
+    }
+
+    .area_converter_page .btns {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 10px;
     }
  
 } 
