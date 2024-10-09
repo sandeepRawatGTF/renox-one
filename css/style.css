@@ -1459,7 +1459,10 @@ canvas#pieChart {
 .csr-card{padding:30px;background-color:#fff}
 .csr-card h4{margin-bottom:15px;color:#a97036}
 .nri-form{background-color:#fff;padding:30px;border-radius:20px;margin-top:50px;width:100%;margin-left:auto}
-.nri-form .nri-form-heading{margin-bottom:20px;font-size:30px;color:#a97036;letter-spacing:.5px}
+.contact-us .nri-form {
+    margin-top: 0px;
+}
+.nri-form .nri-form-heading{font-size: 44px;width: 100%;text-transform: uppercase;margin-top: 30px;margin-bottom: 40px;letter-spacing: 1px;word-spacing: 2px;text-align: start;}
 .nri-form .flex-form-group{display:block;align-items:center;justify-content:space-between}
 .nri-form .form-group{width:calc(100% - 0px);margin-bottom:16px}
 .nri-form .form-control{border-style:solid;border-width:1px;border-radius:5PX;padding:15px;width:100%;font-size:16px}
@@ -1540,6 +1543,15 @@ canvas#pieChart {
 
 section#scroll-btn { position: relative; top: -25px;}
 
+
+img.logo-icon {
+    display: none!important;
+}
+.contact-us .nri-form {
+    margin-top: 0px;
+}
+
+.contact-left-section iframe {width: 100%; height: 251px; margin-top: 30px;}
 
 @media (max-width: 1600px) {
 
@@ -1671,6 +1683,8 @@ section#scroll-btn { position: relative; top: -25px;}
     a.blantershow-chat {font-size: 13px;}
     .container {max-width: 90%;}
     .inside-about-us h4.section-head {font-size: 22px; }
+
+    .nri-form .nri-form-heading {font-size: 32px;}
 
 }
 
