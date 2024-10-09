@@ -754,6 +754,66 @@ from{transform:scale(0);opacity:0}
 }
 /* end of blogs_page_section */
 
+/* blog_detail */
+
+.blog_detail .single .thumbnail{
+    /* border-radius: 4px;
+    overflow: hidden; */
+}
+
+.blog_detail .single .thumbnail img{
+    width: 100%
+}
+
+.blog_detail .single .date{
+    margin: 30px 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog_detail .single .date .icon{
+    width: 16px;
+    margin-right: 8px;
+    opacity: .6;
+}
+
+.blog_detail .single .title{
+    line-height: 36px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.blog_detail .single .description{
+    line-height: 26px;
+    font-size: 15px;
+}
+
+/* end of blog_detail */
+
+/* pagination */
+
+.pagination{
+    margin:0;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pagination .page-link{
+    height:50px;
+    width:50px;
+    border-radius: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--color1);
+}
+
+.pagination .active .page-link{
+    background:var(--color1);
+    border-color:var(--color1);
+}
 
 @media screen and (max-width: 480px) {
 #whatsapp-chat{width:auto;left: 5%;right:5%;font-size:80%}
@@ -1983,6 +2043,41 @@ canvas#pieChart {
         font-size: 12px;
         margin-top: 8px;
         line-height: 18px !important;
+    }
+
+    /* blog detail page */
+
+    .blog_detail .single .date{
+        margin: 15px 0;
+        font-size: 12px;
+    }
+
+    .blog_detail .single .date .icon{
+        width:12px;
+    }
+
+    .blog_detail .single .title{
+        line-height: 24px;
+        font-size: 20px;
+        margin-bottom:15px;
+    }
+
+    .blog_detail .single .description{
+        line-height: 22px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    /* blog detail page */
+
+    .pagination{
+        margin-top: 10px;
+    }
+
+    .pagination .page-link{
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
     }
  
 } 
