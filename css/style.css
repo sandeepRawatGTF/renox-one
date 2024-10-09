@@ -95,15 +95,7 @@ body {font-family: var(--montserrat);background: #ffffff;}
 p{ font-family: var(--montserrat);}
 h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
 
-.mx_-30{
-    margin-left: -30px;
-    margin-right:-30px
-}
 
-.px_30{
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 /* Navbar section */
 
@@ -665,114 +657,6 @@ from{transform:scale(0.5);opacity:0}
 @keyframes showchat {
 from{transform:scale(0);opacity:0}
 }
-
-
-/* blogs_page_section */
-
-.blogs_page_section{
-    padding:100px 0;
-}
-
-.blogs_page_section .single_blog{
-    margin-bottom:50px;
-}
-
-.blogs_page_section .single_blog .thumbnail{
-    /* border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px; */
-    /* border-radius: 5px;
-    overflow: hidden; */
-}
-
-.blogs_page_section .single_blog .content{
-    margin-top:20px;
-}
-
-.blogs_page_section .single_blog .date{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.blogs_page_section .single_blog .date .icon{
-    width: 16px;
-    margin-right:10px;
-}
-
-.blogs_page_section .single_blog .title{
-    font-size: 22px;
-    line-height: 26px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-}
-
-.blogs_page_section .single_blog a{
-    text-decoration: unset;
-    color:#222;
-}
-
-.blogs_page_section .single_blog .des{
-    margin: 0;
-    font-size: 14px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    line-height: 20px;
-    padding-top: 0;
-    margin-top: 15px;
-}
-
-.blogs_page_section .blogs_filter{
-    background:#F7F8F9;
-    padding:40px;
-}
-
-.blogs_page_section .blogs_filter .title{
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-}
-
-.blogs_page_section .blogs_filter ul{
-    padding:0;
-    margin:0;
-    list-style-type: none;
-}
-
-.blogs_page_section .blogs_filter li{
-    border-top: 1px solid #ebebeb;
-}
-
-.blogs_page_section .blogs_filter li a{
-    display:block;
-    padding:20px 0;
-    text-decoration: none;
-    color:#333;
-    font-weight: 600;
-}
-
-.blogs_page_section .blogs_filter li .title{
-    font-size: 18px;
-    margin-bottom: 2px;
-    color:#000;
-    text-transform: capitalize;
-}
-
-.blogs_page_section .blogs_filter li .date{
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 400;
-}
-
-
-/* end of blogs_page_section */
-
 @media screen and (max-width: 480px) {
 #whatsapp-chat{width:auto;left: 5%;right:5%;font-size:80%}
 }
@@ -807,12 +691,12 @@ from{transform:scale(0);opacity:0}
 .tooltip .tooltiptext a{text-decoration: none;color: #a57241 !important;}
 
 section#our-projects {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 
   /* counter-section */
-  .counter-section{padding: 100px 0px;}
+  .counter-section{padding: 90px 0px;}
   p.counter-sub-head {color: #b98655;padding: 0px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: auto;}
   .counter-section .logo-icon {width: 80px;padding-bottom: 25px;}
 h3.counter-head {font-size: 40px;margin: 0;padding: 25px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;width: 70%;margin: auto;}
@@ -1655,16 +1539,6 @@ canvas#pieChart {
         line-height:22px!important;
     }
 
-    .mx_sm_-15{
-        margin-left: -15px!important;
-        margin-right:-15px!important;
-    }
-
-    .px_sm_15{
-        padding-left: 15px!important;
-        padding-right: 15px!important;
-    }
-
     .mb_sm_30{
         margin-bottom:30px!important;
     }
@@ -1984,28 +1858,6 @@ canvas#pieChart {
         align-items: center;
         display: flex;
         gap: 10px;
-    }
-
-    /* blog page */
-
-    .blogs_page_section{
-        padding:50px 0;
-    }
-
-    .blogs_page_section .single_blog .date{
-        font-size: 12px;
-        margin-bottom: 15px;
-    }
-
-    .blogs_page_section .single_blog .title{
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .blogs_page_section .single_blog .des{
-        font-size: 12px;
-        margin-top: 8px;
-        line-height: 18px !important;
     }
  
 } 
