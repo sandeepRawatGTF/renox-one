@@ -599,12 +599,12 @@ img.stars-section { position: absolute;bottom: 0px;}
     }
   .project-typology .section:hover {flex: 2;}
   .project-typology .section:hover .overlay {background-color: rgba(0, 0, 0, 0.3);}
-  .project-typology .section .content a{transition: padding 0.5s ease;text-align: center;text-decoration: none;color: #fff;font-size: 20px;letter-spacing: 0.5px;word-spacing: 1px;}
-  .project-typology .section:hover .content a{border: 1px solid #ffffff78;padding: 7px 22px;width: fit-content;margin: auto;}
+  .project-typology .section .content a{transition: padding 0.5s ease;text-align: center;text-decoration: none;color: #fff;font-size: 20px;letter-spacing: 3px;text-transform: uppercase;}
+  .project-typology .section:hover .content a{border: 1px solid #ffffff78;padding: 10px 26px; width: fit-content;margin: auto;}
 
-  #hospitality{background: url('../images/projects/hospitality.png') no-repeat;background-position:center ;background-size: cover;}
-  #commercial{background: url('../images/projects/commercial.png')  no-repeat;background-position:center ;background-size: cover;}
-  #residential{background: url('    ../images/projects/residential.png') no-repeat;background-position:center ;background-size: cover;}
+  #hospitality{background: url('../images/projects/hospitality.webp') no-repeat;background-position:center ;background-size: cover;}
+  #commercial{background: url('../images/projects/commercial.webp')  no-repeat;background-position:center ;background-size: cover;}
+  #residential{background: url('../images/projects/residential.webp') no-repeat;background-position:center ;background-size: cover;}
 
   .project-typology .section .hidden-text1{
     width: 60%;
@@ -1671,7 +1671,7 @@ img.logo-icon {
 
     /* Project-types */
     .project-typology .project-types { height: 540px; }
-    .project-typology .section .content a {font-size: 16px; letter-spacing: 1px;}
+    .project-typology .section .content a {font-size: 18px; }
 
     /* Counter Section */
     .counter-section .logo-icon {width: 30px;margin-bottom: 0px;}
@@ -1970,6 +1970,7 @@ img.logo-icon {
     .project-typology .section .content a{
         letter-spacing: 3px;
         text-transform: uppercase;
+        font-size: 14px;
     }
 
     /* counter section */
