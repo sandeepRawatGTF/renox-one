@@ -869,7 +869,7 @@ span.percentage {font-family: var(--Abhaya_Libre);font-size: 32px;font-weight: 5
 /* Project Section */
 
 .project-section{padding: 80px 0 80px;position: relative;background: #fff6ed;/* z-index: -1; */}
-.project-section .logo-icon{width: 80px;margin: auto;padding-bottom: 20px;/* filter: invert(1) brightness(100); */display: block;}
+.project-section .logo-icon{width: 30px;margin: auto;padding-bottom: 15px;/* filter: invert(1) brightness(100); */display: block;}
 .project-section::before{content: '';position: absolute;top: 0;left: 0;height: 100%;width: 100%;background: url();z-index: -1;}
 .project-section .our-projects {color: #000000;text-align: center;margin: 30px auto 40px;letter-spacing: 1px;word-spacing: 2px;font-size: 44px;width: 90%;text-transform: uppercase;}
 p.our-projects-para {text-align: center;color: #000000;font-size: 16px;padding: 0px;letter-spacing: 1px;word-spacing: 1px;font-weight: 500;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgba(56, 2, 155, 0), rgb(241 215 124), rgb(255 125 0), rgb(241 215 124), rgba(56, 2, 155, 0));border-image-slice: 1;width: 14%;padding-bottom: 10px;margin: 0 auto;}
@@ -931,7 +931,7 @@ h2.amenity-para {font-size: 40px;margin: 0;padding: 30px 0;text-transform: upper
 
 .testimonial-section{padding: 100px 0 50px;}
 .testimonial-section .logo-icon {width: 80px;display: block;margin: auto;}
-.testimonial-section .testimonial-para{text-align: center;color: #b98655;padding: 30px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: 0 auto;}
+.testimonial-section .testimonial-para{text-align: center;color: #b98655;padding: 30px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: 0 auto;padding-top: 20px;}
 .testimonial-section .testimonial-head{font-size: 40px;margin: 0;padding: 30px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: center;width: 60%;margin: auto;}
 
 .testimonial-details {padding: 40px 60px 35px;background: linear-gradient(0deg, #b986551f, transparent);margin: 30px 15px;}
@@ -1494,10 +1494,11 @@ canvas#pieChart {
 .property-content-box{padding:60px;background-color:#d9ae8514}
 
 .vision-section.text_sm_left.w_sm_100 {
-    background-color: #fff;
     padding: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    color: #fff;
+    width: 70%;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #ffffff38;
 }
 
 .about-right-content p {
@@ -1506,20 +1507,38 @@ canvas#pieChart {
     text-align: start;
     letter-spacing: 0.8px;
     word-spacing: 0.5px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .overview-section .about-right-content p{line-height:26px;font-size:13px}
-.overview-section .about-right-content{display:grid;gap: 50px 0;}
+.overview-section .about-right-content{display: flex;gap: 10px 50px;}
 .inside-about-us .container{max-width:100%}
+.inside-about-us .col-sm-12.col-md-12.col-lg-12.right-col-custom { padding-left: 0px;}
 .overview-section .left-col-custom {padding-right: 40px;}
 .overview-section .right-col-custom {padding-left: 40px;}
 
-.overview-section .flex-row-custom {display: flex;  justify-content: space-between;align-items: center;  margin-bottom: 20px;}
-.overview-section .flex-row-custom .icon {width: auto; height: 50px;}
-.our-mission.text_sm_left.mt_sm_30.w_sm_100 {background-color: #fff;padding: 30px;padding-left: 50px;padding-right: 50px;}
+.overview-section .flex-row-custom {display: grid;justify-content: space-between;align-items: center;margin-bottom: 5px;}
+.overview-section .flex-row-custom .icon {width: auto;height: 46px;margin-bottom: 15px;filter: brightness(0) invert(1);}
+.our-mission.text_sm_left.mt_sm_30.w_sm_100 {padding: 30px;width: 70%;color: #fff;padding-top: 17px;}
 
 .overview-para-details h2.section-head-para{font-size:44px;width:100%;margin-top:15px;text-transform:uppercase;margin-top:30px;margin-bottom:40px;letter-spacing:1px;word-spacing:2px;text-align:start}
 .overview-para-details h2.section-head-para {font-size: 32px;}
+
+.inside-about-us h4.section-head{color:#b98655;border-bottom:2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice:1;width:40%;padding-bottom:10px;text-align:start;width:fit-content}
+.inside-about-us .about-img-banner {margin-top: 30px;height: 700px;object-fit: cover;width: 100%;}
+.about-us-middle-banner {position: relative;}
+.about-right-content { position: absolute;   top: 55%;left: 27%;width: 50%; transform: translate(-50%, -50%);}
+.about-right-content {display: block;flex-wrap: wrap;}
+
+.we-are-committed-top h3.sec_title{font-size:44px;width:100%;text-transform:uppercase;margin-top: 90px;margin-bottom: 65px;letter-spacing:1px;word-spacing:2px;}
+
+.we-are-committed-top h3.sec_title {font-size: 32px;}
+.we-are-committed-top p.mission-highlights-points {border: navajowhite;}
+.overview-padding.we-are-committed-top .row.custom-row {gap: 30px 0px;}
+.inside-about-us { padding-bottom: 60px!important;}
+
+.overview-padding.we-are-committed-top .custom-icon-box {border: 1px solid #b9865547; padding-top: 30px;}
+
+section#scroll-btn { position: relative; top: -25px;}
 
 
 @media (max-width: 1600px) {
@@ -1564,8 +1583,8 @@ canvas#pieChart {
 
     /* Overview section */
     .overview-section { padding: 80px 0px 80px; }
-    .overview-section .logo-icon {width: 60px; }
-    .over-head .section-head {width: 50%; font-size: 18px;}
+    .overview-section .logo-icon {width: 30px;padding-bottom: 17px;}
+    .over-head .section-head {width: 50%;font-size: 19px;}
     .overview-right-img img.img-fluid { width: 80%;height: 450px; object-fit: cover; }
     .over-head .section-head-para {font-size: 32px;}
     .overview-para-details p {line-height: 26px; font-size: 13px;}
@@ -1578,8 +1597,8 @@ canvas#pieChart {
     .project-typology .section .content a {font-size: 16px; letter-spacing: 1px;}
 
     /* Counter Section */
-    .counter-section .logo-icon { width: 60px;}
-    p.counter-sub-head {font-size: 14px;}
+    .counter-section .logo-icon {width: 30px;margin-bottom: 0px;}
+    p.counter-sub-head {font-size: 16px;}
     p.main-content {font-size: 13px;line-height: 28px;}
     h3.counter-head { font-size: 32px;line-height: 42px; padding: 25px 0; }
 
@@ -1605,20 +1624,20 @@ canvas#pieChart {
     button.owl-next {right: 37%;}
      #owl-one .owl-dots{position: absolute;left: 50%;transform: translateX(-50%);bottom: -10%;}
     div#counter {margin-top: 80px;}
-    p.our-projects-para {width: 10%;padding-bottom: 10px;font-size: 13px;}
+    p.our-projects-para {width: 10%;padding-bottom: 10px;font-size: 16px;}
 
     /* Amenity Section */
     .amenity-img img{height: 700px;object-fit: cover;}
 
-    .amenity-detail .logo-icon {width: 60px;}
-    p.amenity-head {font-size: 13px;}
+    .amenity-detail .logo-icon {width: 30px;margin-bottom: 6px;padding-bottom: 11px;}
+    p.amenity-head {font-size: 16px;}
     h2.amenity-para { font-size: 32px;}
     .amenities-section .amenity-box img {width: 48px;}
     .amenity-box p{font-size: 13px;}
     .amenities-section .amenity-box { margin: 5px 20px 0;}
 
     /* testimonial-section */
-    .testimonial-section .logo-icon { width: 60px;display: block; margin: auto;}
+    .testimonial-section .logo-icon {width: 30px;display: block;margin: auto;}
     .testimonial-details .testi-head {font-size: 15px;}
     .testimonial-section .testimonial-head {font-size: 32px;}
     .testimonial-details .testi-content {font-size: 13px;}
@@ -1631,7 +1650,7 @@ canvas#pieChart {
     #owl-two .owl-nav {top: 8%;}
 
     /* Our Leader Section */
-    .about-us .about-md-para {font-size: 13px;}
+    .about-us .about-md-para {font-size: 16px;}
     .about-us .about-md {font-size: 32px; }
     p.detail-md {font-size: 13px;padding-right: 10px;}
     .chairman-img img.img-fluid { height: 360px;}
@@ -1651,6 +1670,7 @@ canvas#pieChart {
     .btm-foot.social-media-links{font-size: 11px;}
     a.blantershow-chat {font-size: 13px;}
     .container {max-width: 90%;}
+    .inside-about-us h4.section-head {font-size: 22px; }
 
 }
 
