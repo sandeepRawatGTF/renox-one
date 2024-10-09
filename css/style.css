@@ -133,6 +133,14 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
     margin-top:50px;
 }
 
+.mb_30{
+    margin-bottom:30px;
+}
+
+.mb_40{
+    margin-bottom:40px;
+}
+
 .py_100{
     padding-top:100px;
     padding-bottom:100px;
@@ -154,6 +162,10 @@ section.section{
 
 .text-left{
     text-align: left;
+}
+
+.w_70p{
+    width:70%
 }
 
 img.ab_img {
@@ -539,8 +551,8 @@ img.hamburger-icon {width: 36px;margin-left: 25px;}
 .overview-padding{padding: 0 40px;text-align: center;display: flex;flex-wrap: wrap;}
 .overview-section .logo-icon {width: 80px;padding-bottom: 30px;display: block;}
 .over-head {justify-content: start;align-items: start;display: flex;flex-direction: column;position: relative;width: 50%; justify-content: center;}
-.section-head{/* margin-top: 15px; */ border-top-width:0px; border-left-width:0px; color: #b98655;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;padding-bottom: 10px;text-align: start;}
-.section-head-para{font-size: 44px;width: 100%;margin-top: 15px;text-transform: uppercase;margin-top: 30px;margin-bottom: 40px;letter-spacing: 1px;word-spacing: 2px;text-align: start;}
+.section-head{/* margin-top: 15px; */ border-top-width:0px; border-left-width:0px; color: #b98655;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;padding-bottom: 10px;text-align: start; font-size: 18px; display: inline-block;}
+.section-head-para{font-size: 44px;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: start;}
 .over-img img{height: 450px;object-fit: cover;padding: 8px;border: 1px solid #bd9a68;}
 img.stars-section { position: absolute;bottom: 0px;}
 
@@ -920,17 +932,16 @@ section#our-projects {
 
 
   /* counter-section */
-  .counter-section{padding: 90px 0px;}
   p.counter-sub-head {color: #b98655;padding: 0px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: auto;}
   .counter-section .logo-icon {width: 80px;padding-bottom: 25px;}
 h3.counter-head {font-size: 40px;margin: 0;padding: 25px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;width: 70%;margin: auto;}
 p.main-content {font-size: 15px;letter-spacing: 0px;color: #000;line-height: 28px;letter-spacing: 0.6px;margin-bottom: 50px;}
 .counter-content {width: 85%;text-align: center;margin: auto;}
-.loader {text-align: center;padding: 50px 20px 30px;border-radius: 0px;margin: 15px 40px;position: relative;border-bottom: 1px solid #b9865559;}
+.loader {text-align: center;padding: 50px 0px 20px;border-radius: 0px;margin: 15px 40px;position: relative;border-bottom: 1px solid #b9865559;}
 .loader img{opacity: 0.6;position: absolute;left: 50%;bottom: 60%;width: auto;height: 46px;transform: translate(-50%, -50%);}
 span.count {font-family: var(--Abhaya_Libre);font-size: 44px;color: #b98655;}
 span.percentage {font-family: var(--Abhaya_Libre);font-size: 32px;font-weight: 500;color: #b98655;}
-.loader p{font-size: 16px;font-weight: 500;margin-top: 0px;color: #b98655;letter-spacing: 0.7px;word-spacing: 1px;}
+.loader p{font-size: 14px;font-weight: 500;margin-top: 0px;color: #b98655;letter-spacing: 0.7px;word-spacing: 1px;}
 
 /* Project Section */
 
