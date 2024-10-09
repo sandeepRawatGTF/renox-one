@@ -275,7 +275,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     left: 50%;
     transform: translateX(-50%);
     font-family: Vonca-Regular;
-    letter-spacing: 28px;
+    letter-spacing: 45px;
     color: #fff;
     width: 100%;
     transform: translateX(-50%);
@@ -1207,7 +1207,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     width: 100%;
     object-fit: cover;
     object-position: 1% 81%;
-    filter: brightness(0.7)
+    filter: brightness(0.5)
 }
 
 .second-footer-heading {
@@ -1347,10 +1347,11 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .modal-body .modal-col-1 h4 {
     position: absolute;
-    top: 18px;
+    top: 23px;
     left: 0;
     font-family: Vonca-Regular;
-    letter-spacing: 19px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
     color: #fff;
     width: 100%;
     text-align: center;
@@ -1444,13 +1445,13 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .top-slide-content .icon-img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width: auto;
-    height: 80px;
+    height: 54px;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    filter: invert(1) hue-rotate(197deg);
+    /* filter: invert(1) hue-rotate(197deg); */
 }
 
 .footer-img-sidebar {
@@ -1465,8 +1466,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
         top: 20px;
         left: 50%;
         transform: translateX(-50%);
-        letter-spacing: 89px;
-        font-size: 36px;
+        letter-spacing: 36px;
+        font-size: 42px;
     }
 
     .project-logo-img {
@@ -1553,13 +1554,13 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
 @media(max-width: 1280px) {
     .slider-container .slider-content h1 {
-        letter-spacing: 20px;
-        font-size: 28px;
+        letter-spacing: 38px;
+        font-size: 35px;
     }
 
     .footer-container .footer-heading {
         letter-spacing: 75px;
-        font-size: 30px;
+        font-size: 26px;
     }
 }
 
@@ -1638,8 +1639,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
     .type-heading {
         letter-spacing: 7px;
-        font-size: 15px;
-        margin-bottom: 30px;
+        font-size: 14px;
+        margin-bottom: 20px;
     }
 
     .price-heading-top {
@@ -1665,9 +1666,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .slider-container .slider-content h1 {
-        letter-spacing: 20px;
-        font-size: 20px;
-        top: 25px;
+        letter-spacing: 8px;
+        font-size: 18px;
+        top: 20px;
         left: 52%;
     }
 
@@ -1984,7 +1985,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .footer-container .footer-heading {
-        letter-spacing: 17px;
+        letter-spacing: 12px;
         font-size: 20px;
         padding-left: 15px;
     }
@@ -2030,7 +2031,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
     .highlights-container .highlights li {
         line-height: 24px;
-        font-size: 15px;
+        font-size: 14px;
         gap: 0px 9px;
         text-align: center;
         justify-content: center;
@@ -2245,7 +2246,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .top-slide-content ul li {
-        padding: 25px;
+        padding: 25px 10px;
         font-size: 14px;
         color: #000;
         width: 50%;
