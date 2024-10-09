@@ -1495,7 +1495,9 @@ canvas#pieChart {
 
 .vision-section.text_sm_left.w_sm_100 {
     background-color: #fff;
-    padding: 40px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about-right-content p {
@@ -1514,7 +1516,7 @@ canvas#pieChart {
 
 .overview-section .flex-row-custom {display: flex;  justify-content: space-between;align-items: center;  margin-bottom: 20px;}
 .overview-section .flex-row-custom .icon {width: auto; height: 50px;}
-.our-mission.text_sm_left.mt_sm_30.w_sm_100 {background-color: #fff;padding: 40px;}
+.our-mission.text_sm_left.mt_sm_30.w_sm_100 {background-color: #fff;padding: 30px;padding-left: 50px;padding-right: 50px;}
 
 .overview-para-details h2.section-head-para{font-size:44px;width:100%;margin-top:15px;text-transform:uppercase;margin-top:30px;margin-bottom:40px;letter-spacing:1px;word-spacing:2px;text-align:start}
 .overview-para-details h2.section-head-para {font-size: 32px;}
