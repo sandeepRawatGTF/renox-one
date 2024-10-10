@@ -125,6 +125,10 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
     padding-right: 60px!important;
 }
 
+.mt_10{
+    margin-top:10px;
+}
+
 .mt_30{
     margin-top:30px;
 }
@@ -197,7 +201,7 @@ img.ab_img {
 
 /* Navbar section */
 
-section.header-section{position:absolute;width:100%;padding:0px 0;z-index:9;/* transition:all .5s ease 0s; */color:#000;border-bottom: 1px solid #e2e2e261;}
+section.header-section{position:absolute;width:100%;padding:0px 0;z-index:9;/* transition:all .5s ease 0s; */color:#000;/*border-bottom: 1px solid #e2e2e261;*/}
 .header-section.fixed{position:fixed;top:0;background: #ffffff;transition:all .4s ease-in-out 0;z-index:999;/* box-shadow:rgba(181,181,181,0.7) 0 8px 6px -6px; */}
 .nav-item .nav-link {
     color: #ffffff;
@@ -906,6 +910,10 @@ from{transform:scale(0);opacity:0}
     border-color:var(--color1);
 }
 
+.amenity-box p{
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 480px) {
 #whatsapp-chat{width:auto;left: 5%;right:5%;font-size:80%}
 }
@@ -1013,17 +1021,9 @@ p.project-sub-para {letter-spacing: 0.5px;color: #5b5b5b;word-spacing: 1px;}
 .amenity-detail .logo-icon{width: 80px;display: block;margin: 0 auto;padding-bottom: 30px;}
 
 
-
-p.amenity-head {text-align: center;color: #b98655;padding: 0px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: 0 auto;}
-h2.amenity-para {font-size: 40px;margin: 0;padding: 30px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: center;}
-
-
 /* testimonial-section */
 
-.testimonial-section{padding: 100px 0 50px;}
 .testimonial-section .logo-icon {width: 80px;display: block;margin: auto;}
-.testimonial-section .testimonial-para{text-align: center;color: #b98655;padding: 30px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: 0 auto;padding-top: 20px;}
-.testimonial-section .testimonial-head{font-size: 40px;margin: 0;padding: 30px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: center;width: 60%;margin: auto;}
 
 .testimonial-details {padding: 40px 60px 35px;background: linear-gradient(0deg, #b986551f, transparent);margin: 30px 15px;}
 /*.owl-item.active:first-child{border-right: 1px solid #c3c3c354}
@@ -1052,7 +1052,7 @@ h2.amenity-para {font-size: 40px;margin: 0;padding: 30px 0;text-transform: upper
 
 .chairman-img img.img-fluid {height: 420px;object-fit: cover;position: relative;z-index: 99;/* outline: 7px solid #b98655; *//* outline-offset: 5px; */padding: 10px;}
 .chairman-img {text-align: center;}
-section.about-us {position: relative;padding: 100px 0 100px;background: #fff6ed;}
+section.about-us {position: relative; background: #fff6ed;}
 h2.chairman-name {/* position: absolute; */font-size: 46px;padding: 15px 0 5px;/* left: 36%; */color: #fff;color: #b98655;position: relative;margin: 0;}
 h2.chairman-name::before {position: absolute;/* content: ''; */left: -17.4%;top: 107%;width: 125%;height: 2px;background: #b98655;}
 p.about-chairman {position: relative;/* left: 36%; */font-size: 16px;font-weight: 500;}
@@ -1068,8 +1068,6 @@ p.about-chairman {position: relative;/* left: 36%; */font-size: 16px;font-weight
     z-index: 9999;
 } */
 
-.about-us .about-md{font-size: 44px;letter-spacing: 1px;word-spacing: 1px;padding: 30px 50px 30px 0;text-transform: uppercase;}
-.about-us .about-md-para{ text-align: center; color: #b98655;padding: 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: 15%;padding-bottom: 10px;text-align: start;}
 p.detail-md {font-size: 14px;letter-spacing: 0.5px;word-spacing: 1px;line-height: 26px;padding-right: 30px;}
 .know-more-btn {text-align: start;margin-top: 50px;}
 .know-more-btn a {text-decoration: none;color: #ffffff;background: #b98655;padding: 12px 40px;text-transform: uppercase;font-size: 14px;letter-spacing: 0.5px;word-spacing: 1px;}
@@ -1751,18 +1749,17 @@ img.logo-icon {
     .project-section .pro-name-sec .project-status {font-size: 14px;font-weight: 600;}
     .project-section .pro-name-sec p.project-status {font-size: 14px;font-weight: 500;}
 
-    .project-section .owl-nav {position: relative; top: 60px;}
+    .project-section .owl-nav {position: relative; top: 100px;}
     button.owl-prev {left: 33%;}
     button.owl-next {right: 33%;}
-     #owl-one .owl-dots{position: relative; left: 50%; transform: translateX(-50%); bottom: 0; top: 45px;}
-    div#counter {margin-top: 80px;}
+     #owl-one .owl-dots{position: relative; left: 50%; transform: translateX(-50%); bottom: 0; top: 85px;}
+    div#counter {margin-top: 100px;}
     p.our-projects-para {width: 10%;padding-bottom: 10px;font-size: 16px;}
 
     /* Amenity Section */
     .amenity-img img{height: 700px;object-fit: cover;}
 
     .amenity-detail .logo-icon {width: 30px;margin-bottom: 6px;padding-bottom: 11px;}
-    p.amenity-head {font-size: 16px;}
     h2.amenity-para { font-size: 32px;}
     .amenities-section .amenity-box img {width: 48px;}
     .amenity-box p{font-size: 13px;}
@@ -1771,7 +1768,6 @@ img.logo-icon {
     /* testimonial-section */
     .testimonial-section .logo-icon {width: 30px;display: block;margin: auto;}
     .testimonial-details .testi-head {font-size: 15px;}
-    .testimonial-section .testimonial-head {font-size: 32px;}
     .testimonial-details .testi-content {font-size: 13px;}
     .testi-name { gap: 30px;}
     .testi-name div span { font-size: 15px;}
@@ -1782,12 +1778,10 @@ img.logo-icon {
     #owl-two .owl-nav {top: 8%;}
 
     /* Our Leader Section */
-    .about-us .about-md-para {font-size: 16px;}
-    .about-us .about-md {font-size: 32px; }
     p.detail-md {font-size: 13px;padding-right: 10px;}
     .chairman-img img.img-fluid { height: 360px;}
     .know-more-btn a {font-size: 12px;}
-    h2.chairman-name { font-size: 36px;}
+    h2.chairman-name { font-size: 28px;}
     p.about-chairman { font-size: 14px;}
 
     /* Footer Section */
@@ -1847,8 +1841,6 @@ img.logo-icon {
     a.blantershow-chat {right: 80px;padding: 8px 15px;gap: 3px;}
     .about-builder p {font-size: 12px;}
 
-    .project-section .owl-nav{top: 80px;}
-    #owl-one .owl-dots{top: 65px;}
    
 }
 
@@ -2063,10 +2055,10 @@ img.logo-icon {
     div#counter {margin-top: 0px;}
 
     /* Amenity Section */
-    .amenity-img img { height: 380px;object-fit: cover;}
+    .amenity-img img { height: auto; object-fit: unset;}
     
-    .amenity-detail::before { background: linear-gradient(181deg, #00000000, #c1946961), url(../images/back-pattern.png) no-repeat; z-index: -1;  opacity: 0.2;}
-    .amenities-section .amenity-box {padding: 25px 0px;margin: 0px 0px 10px;}
+    .amenity-detail::before { background: linear-gradient(181deg, #00000000, #c1946961), url(../images/back-pattern.png) no-repeat; z-index: -1;  opacity: 0.2; display:none;}
+    .amenities-section .amenity-box {padding: 20px 0px;margin: 0;}
     h2.amenity-para {font-size: 26px;}
 
     /* testimonial section */
@@ -2086,7 +2078,7 @@ img.logo-icon {
     .about-us .about-md-para { font-size: 13px; width: fit-content; }
     .about-us .about-md {font-size: 26px;letter-spacing: 1px;word-spacing: 1px;padding: 30px 0 15px;}
     .chairman-img.mobile-view img.img-fluid {height: 340px;width: 100%;object-fit: cover;padding: 0;}
-    .chairman-img.mobile-view h2.chairman-name {font-size: 32px; letter-spacing: 0.8px;}
+    .chairman-img.mobile-view h2.chairman-name {font-size: 22px; letter-spacing: 0.8px;}
     .chairman-img.mobile-view {  text-align: start; padding-bottom: 20px;}
 
 
@@ -2326,6 +2318,15 @@ img.logo-icon {
 
     #owl-one .owl-dots .owl-dot span{
         width: 20px !important;
+    }
+
+    .amenity-detail{
+        padding: 60px 0px;
+    }
+
+    .amenity-box p{
+        font-size: 12px;
+        line-height: 18px !important;
     }
  
 } 
