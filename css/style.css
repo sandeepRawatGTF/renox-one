@@ -1019,11 +1019,7 @@ p.project-sub-para {letter-spacing: 0.5px;color: #5b5b5b;word-spacing: 1px;}
 
 /* testimonial-section */
 
-.testimonial-section{padding: 100px 0 50px;}
 .testimonial-section .logo-icon {width: 80px;display: block;margin: auto;}
-.testimonial-section .testimonial-para{text-align: center;color: #b98655;padding: 30px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: 0 auto;padding-top: 20px;}
-.testimonial-section .testimonial-head{font-size: 40px;margin: 0;padding: 30px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: center;width: 60%;margin: auto;}
-
 .testimonial-details {padding: 40px 60px 35px;background: linear-gradient(0deg, #b986551f, transparent);margin: 30px 15px;}
 /*.owl-item.active:first-child{border-right: 1px solid #c3c3c354}
 .owl-item.active:first-of-type {
@@ -1741,7 +1737,6 @@ img.logo-icon {
     /* testimonial-section */
     .testimonial-section .logo-icon {width: 30px;display: block;margin: auto;}
     .testimonial-details .testi-head {font-size: 15px;}
-    .testimonial-section .testimonial-head {font-size: 32px;}
     .testimonial-details .testi-content {font-size: 13px;}
     .testi-name { gap: 30px;}
     .testi-name div span { font-size: 15px;}
