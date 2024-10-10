@@ -201,7 +201,7 @@ img.ab_img {
 
 /* Navbar section */
 
-section.header-section{position:absolute;width:100%;padding:0px 0;z-index:9;/* transition:all .5s ease 0s; */color:#000;border-bottom: 1px solid #e2e2e261;}
+section.header-section{position:absolute;width:100%;padding:0px 0;z-index:9;/* transition:all .5s ease 0s; */color:#000;/*border-bottom: 1px solid #e2e2e261;*/}
 .header-section.fixed{position:fixed;top:0;background: #ffffff;transition:all .4s ease-in-out 0;z-index:999;/* box-shadow:rgba(181,181,181,0.7) 0 8px 6px -6px; */}
 .nav-item .nav-link {
     color: #ffffff;

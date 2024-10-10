@@ -263,6 +263,9 @@
 
    section.header-section.fixed {padding-top: 0px;}
 
+   .header-section .nav-item .nav-link{display: none;}
+   .header-section.fixed .nav-item .nav-link{display: block;}
+
   
   @media(max-width: 1366px){
       
