@@ -394,7 +394,7 @@
       .highlights-container .highlights {display: flex;gap: 24px 0;margin-top: 30px;margin-bottom: 40px;flex-wrap: wrap;}
       .highlights-container .check-img {height: 13px;}
       .nav-tabs .nav-item {margin-bottom: 0px;}
-      .highlights-container .nav-tabs a.nav-link {letter-spacing: 1px;border-radius: 0 !important;font-family: 'Vonca-Regular';padding: 7px 17px!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;text-align: center;}
+      .highlights-container .nav-tabs a.nav-link {letter-spacing: 1px;border-radius: 0 !important;font-family: 'Vonca-Regular';padding: 7px 17px!important;text-align: center;}
       .highlights-container div#menu1 {padding-left: 0;padding-right: 0;}
       .location-container .location-banner-img {height: 330px;}
       .gallery-container .slogan-heading {font-size: 18px;line-height: 26px;margin-bottom: 50px; width: 100%;}
@@ -439,13 +439,16 @@
       .footer-container .disclaimer-p {text-align: justify;text-align-last: center;}
       .copywrite-p {font-size: 12px;}
       .copywrite-p a {font-size: 12px;}
-      .project-rera {;font-size: 13px;}
+      .project-rera {font-size: 13px;}
       .highlights-container div#menu1 .col-sm-12.col-md-6.col-lg-6.custom-left-col {gap: 0px 0!important;}
       .overview-contaier .sub-heading { margin-top: 10px;}
       .highlights-container .sub-heading {margin-top: 60px;}
       .amenities-container {  padding-top: 50px;}
       .floorplan-container {padding-top: 0;}
       .location-container { padding: 0px;padding-top: 0;}
+    .bottom-footer-section {
+      padding: 30px 0 60px !important; 
+  }
   
   
   }
