@@ -1751,7 +1751,16 @@ img.logo-icon {
 section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10px;font-size: 22px;}
 
 
+/* Property Investor */
+.leadership-box p.main-subheadung-section {color: #b98655;border-bottom: 2px solid transparent; border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;padding-bottom: 10px;text-align: start;width: fit-content;margin: auto;}
+.leadership-box h4.main-heading-section {font-size: 44px;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;text-align: center;}
+.nri-container .para-content {line-height: 27px;font-size: 15px;text-align: start;letter-spacing: 0.5px;word-spacing: 0.5px;text-align: justify;}
+
+
 @media (max-width: 1600px) {
+    .leadership-box p.main-subheadung-section{font-size: 19px;}
+    .leadership-box h4.main-heading-section{font-size: 32px;}
+    .nri-container .para-content{font-size: 13px;}
 
     .section-head-para.para_sm{
         font-size: 30px;
