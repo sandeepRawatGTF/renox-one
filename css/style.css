@@ -137,6 +137,10 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
     margin-top:50px!important;
 }
 
+.mt_80{
+    margin-top:80px!important;
+}
+
 .mb_30{
     margin-bottom:30px!important;
 }
@@ -1127,7 +1131,6 @@ p.detail-md {font-size: 14px;letter-spacing: 0.5px;word-spacing: 1px;line-height
 .know-more-btn a {text-decoration: none;color: #ffffff;background: #b98655;padding: 12px 40px;text-transform: uppercase;font-size: 14px;letter-spacing: 0.5px;word-spacing: 1px;}
 
 /* Contact Us */
-.contact-us{padding:50px 0}
 h2.about-content{padding-bottom:10px}
 .footer-form .form-group{margin:20px 0}
 .footer-form{padding:0 50px}
@@ -1525,17 +1528,15 @@ section.page-inside-banner-head .inside-header-img {
 .insidepage-header-content .breadcrumbs{margin-top: 29px;}
 
 
-.contact-left-section { padding: 0 30px;}
 .contact-left-section .head-section img{width: 60px;padding-bottom: 30px;}
-.contact-left-section .head-section p{color: #000000;font-size: 16px; padding: 0px; letter-spacing: 1px;word-spacing: 1px;font-weight: 500;
-    border-bottom: 2px solid transparent;  border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content; padding-bottom: 10px;}
+.contact-left-section .head-section p{color: #000000;font-size: 16px; padding: 0px; letter-spacing: 1px;word-spacing: 1px;font-weight: 500; border-bottom: 2px solid transparent;  border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1; width: fit-content; padding-bottom: 10px;}
 
 .contact-left-section .head-section h3{    font-size: 40px; margin: 0;padding: 25px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px;}
-.contact-left-section .section-cont {padding: 20px 0;}
-.contact-left-section .section-cont h4{ font-size: 24px;letter-spacing: 0.6px;word-spacing: 1px;}
-.contact-left-section .section-cont div{display: flex;justify-content: start;align-items: center;gap: 30px;padding-top: 20px;}
-.contact-left-section .section-cont div img{width: 44px;}
-.contact-left-section .section-cont div p{font-size: 14px;}
+.contact-left-section .address .title{font-size: 20px; letter-spacing: 0.6px; text-transform: uppercase;}
+.contact-left-section .location{display: flex;justify-content: start;align-items: center; padding-top: 20px;}
+.contact-left-section .location .icon{height:50px; width:50px; background:var(--color1); display: flex; align-items: center; justify-content: center; border-radius: 4px; margin-right: 20px;}
+.contact-left-section .location .icon img{width: 30px; filter: contrast(0) brightness(0) invert(1);}
+.contact-left-section .location p{font-size: 16px; font-weight: 400;}
 
 
 /* EMI Calculator Css */
@@ -1615,8 +1616,31 @@ canvas#pieChart {
 .nri-form .nri-form-heading{font-size: 44px;width: 100%;text-transform: uppercase;margin-top: 30px;margin-bottom: 40px;letter-spacing: 1px;word-spacing: 2px;text-align: start;}
 .nri-form .flex-form-group{display:block;align-items:center;justify-content:space-between}
 .nri-form .form-group{width:calc(100% - 0px);margin-bottom:16px}
-.nri-form .form-control{border-style:solid;border-width:1px;border-radius:5PX;padding:15px;width:100%;font-size:16px}
-.nri-form .btn-custom-2{background-color:#a77d5a;padding:8px 30px;color:#fff;font-size:13px;margin:0 auto;display:block;margin-top:30px;border-radius:0;letter-spacing:.5px}
+.nri-form .form-control{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+}
+.nri-form .form-control::placeholder{
+    font-size:14px;
+}
+.nri-form .btn-custom-2{
+    background-color: #a77d5a;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 13px;
+    /* margin: 0 auto; */
+    display: block;
+    margin-top: 30px;
+    border-radius: 0;
+    letter-spacing: .5px;
+    height: 50px;
+    font-weight: 500;
+}
 .faq-container-box.nri-investors-content{width:100%;max-width:100%;margin-top:50px}
 .faq-container-box{background-color:#fff;padding:30px;max-width:80%;margin:0 auto}
 .faq-section .accordion .accordion-item button[aria-expanded='true']{border-bottom:1px solid #a97036}
@@ -1702,7 +1726,7 @@ img.logo-icon {
     margin-top: 0px;
 }
 
-.contact-left-section iframe {width: 100%; height: 251px; margin-top: 30px;}
+.contact-left-section iframe {width: 100%; height: 300px;}
 .mega-social-media-icons a{display:block;width:40px;height:40px;line-height: 34px;text-align:center;border-radius:50%;border:1px solid #be8d5fa8}
 .mega-social-media-icons{display:flex;height:fit-content;align-items:center;gap:0 20px}
 
@@ -1948,14 +1972,6 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 }
 
 /* end of 1400 */
-
-
-
-.contact-us .btn-custom-2 {
-    width: 100%;
-}
-
-
 
 
 @media (max-width: 767px) {
