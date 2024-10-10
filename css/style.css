@@ -455,7 +455,7 @@ h3.top-b-high{font-size:35px}
         
         .mega-menu-middle-section {display: flex;justify-content: space-between;width: 100%;align-items: center;padding: 50px 0;border-top: 1px solid #b9865575;border-bottom: 1px solid #b9865575;position: relative;height: 75%;padding-left: 100px;padding-right: 100px;}
 
-        .mega-menu-middle-section::before { position: absolute;    content: '';  left: 5%;   bottom: 5%;    width: 70%;    height: 100%;    background: url('../images/shape.png');  opacity: 0.03;background-position: bottom left;  background-size: contain;  }
+        .mega-menu-middle-section::before { position: absolute;    content: '';  left: 5%;   bottom: 5%;    width: 70%;    height: 100%;    background: url('../images/shape.png');  opacity: 0.03;background-position: bottom left;  background-size: contain;z-index: -1;  }
 
 
         .mega-menu-bottom-section {display: flex;justify-content: space-between;width: 100%;align-items: center;gap: 150px;transform: TranslateX(0%);opacity: 1;/* transition: all 0.8s ease-in-out; */padding-left: 100px;padding-right: 100px;}
