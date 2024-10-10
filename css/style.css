@@ -1092,7 +1092,7 @@ p.btm-foot {font-size: 13px;text-align: center;color: #fff;line-height: 23px;let
 
 .bottom-footer-section {
     display: flex;
-    justify-content: space-between!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+    justify-content: space-between!important;
     padding: 30px;
 }
 
@@ -1181,6 +1181,12 @@ h4.related-project-typology {padding: 8px;font-size: 30px;}
 }
 
 p.moreless-button{border:1px solid #2F4137;width:fit-content;margin:6px auto;padding:4px 20px;background:#f4f1e8;color:#000;border-radius:4px}
+
+section.container-fluid.job-details-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 section.footer-section{
     position: relative;
@@ -1668,6 +1674,13 @@ img.logo-icon {
 .career-form-main-box .form-control::placeholder{font-size:14px;color:#0000008f}
 .career-form-main-box .form-control{font-size:14px;color:#0000008f}
 .career-form-main-box .form-control-file::file-selector-button{border:none;border-radius:4px;color:#fff;background-color:#aa7138;border:1px solid #aa7138;cursor:pointer;transition:all .25s ease-in;cursor:pointer}
+.job-title{background-color:#a674430d;padding:30px}
+.job-basic{background-color:#a674430d;padding:30px;margin-top:30px;margin-bottom:50px}
+.job-disc{background-color:#a674430d;padding:30px;margin-top:30px;margin-bottom:50px}
+.inn-basic ul li{line-height:26px;font-size:14px;letter-spacing:.8px;font-weight:300;margin-top:10px}
+.job-details-container .btn-inn a{background-color:#333;color:#fff;padding:8px 50px;text-decoration: none;}
+.job-details-container .btn-inn{width:100%;justify-content:center;display:flex;gap:0 20px}
+
 
 
 @media (max-width: 1600px) {
