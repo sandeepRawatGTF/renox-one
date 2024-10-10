@@ -1687,12 +1687,12 @@ img.logo-icon {
     /* Counter Section */
     .counter-section .logo-icon {width: 30px;margin-bottom: 0px;}
     p.counter-sub-head {font-size: 16px;}
-    p.main-content {font-size: 13px;line-height: 28px;}
+    p.main-content {font-size: 13px;line-height: 24px;}
     h3.counter-head { font-size: 32px;line-height: 42px; padding: 25px 0; }
 
     .loader img {height: 40px;}
     .loader { padding: 50px 20px 20px; margin: 15px 15px; }
-    .loader p { font-size: 12px; }
+    /* .loader p { font-size: 12px; } */
     span.count { font-size: 36px; }
 
     /* Project Boxes section */
@@ -1887,7 +1887,7 @@ img.logo-icon {
     }
 
     .section-head{
-        display:block;
+        display:inline-block;
         font-size: 16px;
         padding-bottom: 5px;
     }
@@ -1989,10 +1989,10 @@ img.logo-icon {
     .counter-section {padding: 40px 0px;}
     p.main-content {text-align: start;}
     h3.counter-head {font-size: 26px;line-height: 42px;padding: 25px 0;margin: 0;width: 100%;text-align: left;}
-    .loader {padding: 40px 0px 20px;margin: 25px 0px;}
-    .loader p { font-size: 11px;}
+    .loader {padding: 40px 0px 10px; margin: 0;}
+    .loader p {font-size: 10px; text-transform: uppercase; line-height: 12px !important;}
     p.counter-sub-head {font-size: 14px;text-align: start;margin: unset;}
-    p.main-content {margin-bottom: 30px;}
+    p.main-content {margin-bottom: 30px; font-size: 12px; text-align: justify;}
 
     /* Project Section */
     .project-section {padding: 40px 0 40px;}
@@ -2231,6 +2231,19 @@ img.logo-icon {
 
     .platter-project-details .platter-project-btn{
         margin-top: 15px;
+    }
+
+    /* loader */
+    .loader img{
+        height: 32px;
+    }
+
+    span.count{
+        font-size: 30px;
+    }
+
+    span.percentage{
+        font-size: 18px;
     }
  
 } 
