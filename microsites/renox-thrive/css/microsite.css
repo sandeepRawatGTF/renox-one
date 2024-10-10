@@ -23,7 +23,7 @@
   
   .container-fluid {overflow: hidden;}
   .container{max-width:90%}
-  .paragraph-text{letter-spacing:1px;line-height:26px;font-size:15px;text-align:center;margin-bottom:80px}
+  .paragraph-text{letter-spacing:1px;line-height:26px;font-size: 15px;text-align:center;margin-bottom:80px}
   .sub-heading{text-transform:uppercase;color:#000;letter-spacing:2px;font-family:'Vonca-Regular';text-align:center;font-size:20px;margin-bottom:30px}
   /*default Css End Here*/
   
@@ -79,7 +79,7 @@
   .overview-contaier .about-top-details .custom-row{display:flex;flex-wrap:wrap;justify-content:space-between}
   .overview-contaier .about-top-details .custom-col h4{display:grid;text-align:center;color:#000;font-family:'Vonca-Regular';letter-spacing:2px;font-size:20px;line-height:31px}
   .overview-contaier .about-top-details .custom-col h4 span{color:#CA8467}
-  .overview-contaier .paragraph-text{width:75%;margin:0 auto;margin-bottom:40px}
+  .overview-contaier .paragraph-text{width: 85%;margin:0 auto;margin-bottom: 50px;}
   /*Overview Codes End From Here*/
   
   /*Highlights Codes Start From Here*/
