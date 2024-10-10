@@ -326,7 +326,7 @@
       </section>
 
       <section class="section project-section">
-        <div class="container-fluid">
+        <div class="container">
           <img class="logo-icon" src="images/logo-icon.png" alt="">
           <h4 class="section-head mb_30 text_center text_sm_left"> Our Projects </h4>
           <h2 class="section-head-para text-md-center mx-auto w_60p w_sm_100 mb_40">An Unforgettable Once-in-a-Lifetime Experience</h2>
@@ -925,6 +925,7 @@
       .owlCarousel({
         // stagePadding:400,
         loop: true,
+        center: true,           
         margin: 50,
         nav: true,
         dots: true,
@@ -939,17 +940,18 @@
         ],
         responsive: {
           0: {
-            items: 1
+            items: 1,
+            margin: 20,
           },
           600: {
             items: 1
           },
           1000: {
-            stagePadding: 300,
+            // stagePadding: 300,
             items: 1
           },
           1600: {
-            stagePadding: 400,
+            // stagePadding: 200,
             items: 1
           }
         }
