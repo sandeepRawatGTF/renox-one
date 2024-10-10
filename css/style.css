@@ -449,7 +449,7 @@ h3.top-b-high{font-size:35px}
         .mega-menu-bottom-section {display: flex;justify-content: space-between;width: 80%;align-items: center;gap: 150px;transform: TranslateX(0%);opacity: 1;/* transition: all 0.8s ease-in-out; */}
 
         .mega-menu-bottom-section .mega-download-btn a{text-decoration: none;color: #b98655;padding: 10px 25px;letter-spacing: 0.5px;border: 1px solid #b98655;word-spacing: 1px;font-weight: 600;font-size: 18px;/* font-family: var(--Abhaya_Libre); */}
-        .mega-menu-bottom-section .mega-social-media-icons a img{width: 40px;margin-left: 20px;border: 1px solid #b98655;padding: 7px;border-radius: 50;}
+        .mega-menu-bottom-section .mega-social-media-icons a img{width: auto;height: 34px;margin-left: 20px;border: 1px solid #b98655;padding: 7px;border-radius: 50;object-fit: cover;}
         /* .mega-menu-bottom-section .mega-social-media-icons a img:hover{background: #b98655;color: #fff;filter: invert(1) brightness(100);} */
 
 
@@ -1080,7 +1080,7 @@ p.btm-foot {font-size: 13px;text-align: center;color: #fff;line-height: 23px;let
 
 .bottom-footer-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
     padding: 30px;
 }
 
@@ -1663,7 +1663,7 @@ img.logo-icon {
     .mega-menu-bottom-section .mega-download-btn a {padding: 10px 15px;font-size: 14px;width: fit-content;}
     .copyright-section {display: flex;gap: 10px;}
     .copyright-section p {font-size: 12px;}
-    .mega-menu-bottom-section .mega-social-media-icons a img {width: 30px; margin-left: 10px;padding: 5px; }
+    .mega-menu-bottom-section .mega-social-media-icons a img {width: auto;margin-left: 18px;padding: 5px;height: 30px;}
     .last-part img {height: 380px;}
     .mega-menu-middle-section {padding: 30px 0 10px;}
 
@@ -1747,7 +1747,7 @@ img.logo-icon {
     p.about-chairman { font-size: 14px;}
 
     /* Footer Section */
-    .bottom-footer-section { padding: 30px 0 30px;}
+    .bottom-footer-section {padding: 30px 0 30px;}
     a.blantershow-chat { bottom: 8px; }
     p.btm-foot { font-size: 13px; gap: 20px;}
     section.footer-section .copyright a {font-size: 11px; }
