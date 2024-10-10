@@ -126,23 +126,27 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
 }
 
 .mt_10{
-    margin-top:10px;
+    margin-top:10px!important;
 }
 
 .mt_30{
-    margin-top:30px;
+    margin-top:30px!important;
 }
 
 .mt_50{
-    margin-top:50px;
+    margin-top:50px!important;
 }
 
 .mb_30{
-    margin-bottom:30px;
+    margin-bottom:30px!important;
 }
 
 .mb_40{
-    margin-bottom:40px;
+    margin-bottom:40px!important;
+}
+
+.mb_60{
+    margin-bottom:60px!important;
 }
 
 .py_100{
@@ -918,7 +922,7 @@ from{transform:scale(0);opacity:0}
 /* vision mission section */
 
 .vision_mission{
-    background:url('../images/family-enjoying-garden.jpg') center -180px;
+    background:url('../images/vision_mission_bg.webp') center -180px;
     background-size:cover;
 }
 
@@ -954,6 +958,13 @@ from{transform:scale(0);opacity:0}
     height:1px;
     display:block;
     background:#ffffff38;
+}
+
+
+/* committed_section */
+
+.committed_section{
+    background: #fff6ed;
 }
 
 
@@ -1670,13 +1681,16 @@ canvas#pieChart {
 .about-us-middle-banner {position: relative;}
 .about-right-content {display: block;flex-wrap: wrap;}
 
-.we-are-committed-top h3.sec_title{font-size:44px;width:100%;text-transform:uppercase;margin-top: 90px;margin-bottom: 65px;letter-spacing:1px;word-spacing:2px;}
 
-.we-are-committed-top h3.sec_title {font-size: 32px;}
 .we-are-committed-top p.mission-highlights-points {border: navajowhite;}
-.overview-padding.we-are-committed-top .row.custom-row {gap: 30px 0px;}
+.committed_section .row.custom-row {gap: 20px 0px;}
 
-.overview-padding.we-are-committed-top .custom-icon-box {border: 1px solid #b9865547; padding-top: 30px;}
+.committed_section .custom-icon-box {border: 1px solid #b9865547; padding: 30px;}
+.committed_section .custom-icon-box p{
+    font-weight: 500;
+    margin-top:20px;
+    font-size: 15px;
+}
 
 section#scroll-btn { position: relative; top: -25px;}
 
@@ -2439,6 +2453,30 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 
     .vision_mission p{
         font-size: 12px;
+    }
+
+    .committed_section .custom-icon-box{
+        padding:20px;
+    }
+
+    .committed_section .icon{
+        width: 36px;
+    }
+
+    .committed_section .custom-icon-box p{
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: initial !important;
+    }
+
+    .chairman-img{
+        text-align: left;
+    }
+
+    .chairman-img img.img-fluid{
+        height: auto;
+        padding: 0;
+        width: 100%;
     }
  
 } 
