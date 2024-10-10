@@ -1477,6 +1477,13 @@ $(document).ready(function() {
    </script>
 
 <script>
+
+   $('.close-btn').on('click', function () {
+     $(this).closest('.hamburder-section').removeClass('open');
+   })
+ </script>
+
+<script>
    $('.menuIconToggle').on('click', function () {
      $(this).closest('.hamburder-section').toggleClass('open');
    })
@@ -1485,14 +1492,7 @@ $(document).ready(function() {
      $(this).closest('.hamburder-section').removeClass('open');
    })
  </script>
- <script>
-
-   $('.close-btn').on('click', function () {
-     $(this).closest('.hamburder-section').removeClass('open');
-   })
- </script>
-
-   
+ 
 <script>
    $(window).scroll(function () {
      if ($(window).scrollTop() > 1) {
