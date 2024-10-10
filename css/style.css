@@ -1185,6 +1185,7 @@ p.moreless-button{border:1px solid #2F4137;width:fit-content;margin:6px auto;pad
 section.container-fluid.job-details-container {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #a6744324;
 }
 
 
@@ -1674,13 +1675,25 @@ img.logo-icon {
 .career-form-main-box .form-control::placeholder{font-size:14px;color:#0000008f}
 .career-form-main-box .form-control{font-size:14px;color:#0000008f}
 .career-form-main-box .form-control-file::file-selector-button{border:none;border-radius:4px;color:#fff;background-color:#aa7138;border:1px solid #aa7138;cursor:pointer;transition:all .25s ease-in;cursor:pointer}
-.job-title{background-color:#a674430d;padding:30px}
-.job-basic{background-color:#a674430d;padding:30px;margin-top:30px;margin-bottom:50px}
-.job-disc{background-color:#a674430d;padding:30px;margin-top:30px;margin-bottom:50px}
-.inn-basic ul li{line-height:26px;font-size:14px;letter-spacing:.8px;font-weight:300;margin-top:10px}
-.job-details-container .btn-inn a{background-color:#333;color:#fff;padding:8px 50px;text-decoration: none;}
+.job-title{background-color: #ffffff;padding: 40px;}
+.job-basic{background-color: #ffffff;padding: 40px;margin-top:30px;margin-bottom: 30px;}
+.job-disc{background-color: #ffffff;padding: 40px;margin-top: 0px;margin-bottom: 0px;}
+.inn-basic ul li{line-height:26px;font-size:14px;letter-spacing:.8px;/* font-weight:300; */margin-top: 15px;}
+.job-details-container .btn-inn a{background-color:#333;color:#fff;padding:8px 50px;text-decoration: none;font-size: 15px;}
 .job-details-container .btn-inn{width:100%;justify-content:center;display:flex;gap:0 20px}
 
+
+.job-details-container .job-disc .btn-inn{width:100%;justify-content:center;display:flex;gap:0 20px;margin-top:50px}
+.back-page h4 a{color:#000;text-align:center;font-size:20px;text-decoration:none;letter-spacing:1px}
+.back-page h4{text-align:center;margin-top: 30px;}
+.job-basic .inn-box{display:flex;flex-wrap:wrap}
+.job-basic .inn-box .box{width:50%}
+.job-basic .inn-box{display:flex;flex-wrap:wrap}
+.job-basic .inn-box .box{width:50%}
+.job-basic .inn-box .box p{line-height:26px;font-size:14px;letter-spacing:.8px;/* font-weight:300; */margin-top:10px;}
+.inn-title .inn-box{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.inn-title .inn-box .box h5 {margin-bottom: 10px;}
+section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10px;font-size: 22px;}
 
 
 @media (max-width: 1600px) {
