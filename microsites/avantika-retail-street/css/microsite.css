@@ -449,6 +449,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     margin-bottom: 40px
 }
 
+.header-section .nav-item .nav-link {
+    display: none;
+}
 /*Overview Codes End From Here*/
 /*Highlights Codes Start From Here*/
 .highlights-container {

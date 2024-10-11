@@ -837,6 +837,10 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 /*Amenities Codes End From Here*/
+
+.header-section .nav-item .nav-link {
+    display: none;
+}
 /*Floor And Master Plan Codes Start From Here*/
 .floorplan-container {
     padding-top: 80px;
