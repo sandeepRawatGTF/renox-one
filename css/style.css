@@ -1319,7 +1319,7 @@ section.footer-section::before {
         padding-bottom: 3px;
     }
 
-    .footer-quick-links.footer-links{padding-left: 50px;}
+    .footer-quick-links.footer-links{/* padding-left: 50px; */}
 
     .footer-quick-links.pro-links{
         height: 100%;
@@ -1811,6 +1811,9 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 }
 
 
+section.footer-section .col-6.col-md-2 {display: flex; justify-content: center;}
+section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
+.footer-quick-links { margin: 0px auto;width: 100%;}
 
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
@@ -1937,10 +1940,10 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
     a.blantershow-chat { bottom: 8px; }
     p.btm-foot { font-size: 13px; gap: 20px;}
     section.footer-section .copyright a {font-size: 11px; }
-    .footer-quick-links.footer-links>h3 { font-size: 22px;letter-spacing: 0.6px;}
+    .footer-quick-links.footer-links>h3 {font-size: 20px;letter-spacing: 0.6px;}
     .footer-quick-links.footer-links p {font-size: 14px; }
     section.footer-section .copyright {font-size: 11px;}
-    .footer-quick-links.footer-links {padding-left: 60px;}
+    .footer-quick-links.footer-links {/* padding-left: 60px; */}
     .btm-foot.social-media-links{font-size: 11px;}
     a.blantershow-chat {font-size: 13px;}
     .container {max-width: 90%;}

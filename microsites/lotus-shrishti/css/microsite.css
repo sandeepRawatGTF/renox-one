@@ -1490,6 +1490,10 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     display: flex!important;
 }
 
+section.footer-section .col-6.col-md-2 {display: flex; justify-content: center;}
+section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
+.footer-quick-links { margin: 0px auto;width: 100%;}
+
 @media(max-width: 1366px) {
     .slider-container .slider-content h1 {
         position: absolute;
@@ -2091,7 +2095,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
         border-radius: 0 !important;
         font-family: 'Vonca-Regular';
         padding: 7px 17px!important;
-        !importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;text-align: center;
+        text-align: center;
     }
 
     .highlights-container div#menu1 {

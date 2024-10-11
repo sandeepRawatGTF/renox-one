@@ -1498,6 +1498,9 @@ section.header-section.fixed {
 .header-section.fixed li.nav-item.hide-li {
   display: flex!important;
 }
+section.footer-section .col-6.col-md-2 {display: flex; justify-content: center;}
+section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
+.footer-quick-links { margin: 0px auto;width: 100%;}
 
 @media(max-width: 1366px) {
   .slider-container .slider-content h1 {
