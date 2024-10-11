@@ -848,6 +848,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .amenities-container .amenities-ul li.activeTB {
     opacity: 1;
 }
+.header-section .nav-item .nav-link {
+    display: none;
+}
 
 /*Amenities Codes End From Here*/
 /*Floor And Master Plan Codes Start From Here*/

@@ -1019,6 +1019,9 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
   margin-top: 40px;
 }
 
+.header-section .nav-item .nav-link {
+  display: none;
+}
 .location-container .location-ul li {
   width: 100%;
   display: flex;
