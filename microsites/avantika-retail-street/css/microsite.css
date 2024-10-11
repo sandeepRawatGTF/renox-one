@@ -2349,7 +2349,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
     .location-container {
         padding: 0px;
-        padding-top: 0;
+        padding-top: 50px;
     }
 
     .bottom-footer-section {
