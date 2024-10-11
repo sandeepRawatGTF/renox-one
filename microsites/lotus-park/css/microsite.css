@@ -65,8 +65,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .developer-logo.developer-logo-2.d-logo-block {
     display: block;
     width: auto!important;
-    !importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;height: 40px!important;
-    !importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;}
+    height: 40px!important;
+}
 
 .top-slide-content {
     position: unset;
@@ -1480,6 +1480,14 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     height: 100vh;
     width: 100%;
     object-fit: cover;
+}
+
+
+.hide-li {
+    display: none!important;
+}
+.header-section.fixed li.nav-item.hide-li {
+    display: flex!important;
 }
 
 @media(max-width: 1366px) {
