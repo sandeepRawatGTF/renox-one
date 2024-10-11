@@ -1806,6 +1806,9 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 .features-points p { font-size: 14px;letter-spacing: 0px;line-height: 30px;}
 .platter-width .project-status{border-top:1px solid #b98655;text-align:center;border-bottom:1px solid #b98655;letter-spacing: 16px;padding:10px;color:#b98655;text-transform:uppercase;margin-bottom: 10px;font-size: 20px;}
 
+.hospitality-platter-section {
+    padding-top: 0px;
+}
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
     .leadership-box h4.main-heading-section{font-size: 32px;}
