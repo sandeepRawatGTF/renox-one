@@ -1495,7 +1495,7 @@ button#SubmitQuery3 {padding: 10px 30px;width: 80%}
 .overview-platter .platter-para {font-size: 15px;letter-spacing: 0px;color: #000;line-height: 28px;letter-spacing: 0.6px;margin-bottom: 20px;text-align: center;}
 
 
-.platter-project-details {display: flex;justify-content: center;flex-direction: column;align-items: center;height: 100%;}
+.platter-project-details {display: flex;justify-content: center;flex-direction: column;align-items: center;height: 100%;position: relative;}
 
 /*h3.platter-project-name {font-size: 36px;text-transform: uppercase;letter-spacing: 0.6px;word-spacing: 4px;padding-bottom: 15px; margin: 0;}
 p.platter-project-location {font-weight: 600;letter-spacing: 0.5px;padding-bottom: 15px;}
@@ -1504,7 +1504,7 @@ p.platter-project-status { font-size: 16px;font-weight: 500; border: 1px solid;p
 p.platter-project-content {padding: 0 60px;text-align: center;font-size: 14px;line-height: 26px;width: 80%;}
 a.platter-view-details {padding: 11px 30px;color: #fff; background: #b98655;font-size: 13px;text-decoration: none;margin-top: 20px;}*/
 
-.platter-width {width: 70%;display: flex;flex-direction: column;gap: 25px;}
+.platter-width {width: 70%;display: flex;flex-direction: column;gap: 25px;position: relative;}
 .platter-project-btn {display: flex;justify-content: center;}
 h3.platter-project-name {font-size: 32px;text-transform: uppercase;letter-spacing: 0.6px;word-spacing: 4px;/* padding-bottom: 5px; */margin: 0;text-align: center;}
 p.platter-project-location {font-weight: 500;letter-spacing: 0.5px;padding-bottom: 15px;display: flex;justify-content: space-between;    border-bottom: 1px solid #b986551f;}
@@ -1582,12 +1582,13 @@ canvas#pieChart {height: 600px!important; width: auto!important; margin-left: 10
 
 .platter-project-details h3.platter-project-name{text-align:left;margin-bottom: 5px;color: #b98655;}
 .platter-project-details p.platter-project-content{text-align:left;margin-bottom: 10px;}
-.platter-project-details .platter-project-btn{justify-content:start;margin-top: 15px;}
+.platter-project-details .platter-project-btn{justify-content:start;margin-top:30px}
 
 
 section#our-projects .project-img-platter {
     margin-bottom: 50px;
     margin-top: 50px;
+    position: relative;
 }
 canvas#pieChart {
     height: 418px !important;
@@ -1797,25 +1798,17 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 .hospitality-project-logo {width: 100px;display: block; margin: 0px auto 20px;}
 .hospitality-platter-section {padding: 80px 0;}
 .hospitality-platter-section .our-projects {color: #b98655; padding: 0px 0 0px; font-size: 16px; font-weight: 500;letter-spacing: 0.2px; word-spacing: 1px; border-bottom: 2px solid transparent; border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1; width: fit-content;padding-bottom: 10px; margin: auto}
-<<<<<<< HEAD
-h4.project-status{width:100%;text-align:center;color:#b98655;padding:10px;margin-bottom: 10px;letter-spacing: 20px;text-transform:uppercase;border-top:1px solid #b98655;border-bottom:1px solid #b98655;font-size: 20px;}
-section#our-projects .col-md-6.p-0{display:flex;align-items:center}
-.platter-width{width:100%}
-.project-img-platter img{height:100%;object-fit:cover}
-.project-img-platter{height:100%;margin:0!important}
-.row.custom-row-inside {
-    margin-bottom: 80px;
-    margin-top: 30px;
-}
-=======
 .hospitality-platter-section .platter-para {text-align: center; padding-top: 16px;}
 
 .hospitality-platter-section .platter-project-details p.platter-project-content {margin-bottom: 5px;}
 .hospitality-platter-section .key-features {font-weight: 500;font-size: 15px;}
 .features-points { display: flex;flex-direction: column;gap: 8px;}
 .features-points p { font-size: 14px;letter-spacing: 0px;line-height: 30px;}
->>>>>>> 249d3fea208dd4547daf9bb6e291f7966b822e0d
+.platter-width .project-status{border-top:1px solid #b98655;text-align:center;border-bottom:1px solid #b98655;letter-spacing: 16px;padding:10px;color:#b98655;text-transform:uppercase;margin-bottom: 10px;font-size: 20px;}
 
+.hospitality-platter-section {
+    padding-top: 0px;
+}
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
     .leadership-box h4.main-heading-section{font-size: 32px;}
@@ -1827,7 +1820,7 @@ section#our-projects .col-md-6.p-0{display:flex;align-items:center}
     }
 
     /* Platter BOx */
-    .overview-platter {padding: 40px 0px;}
+    .overview-platter {   padding: 40px 0; }
     .overview-platter .logo-icon { width: 60px; }
     .overview-platter .our-projects {font-size: 13px;}
     .overview-platter .platter-head {font-size: 32px;}
@@ -2004,6 +1997,21 @@ section#our-projects .col-md-6.p-0{display:flex;align-items:center}
     .about-builder p {font-size: 12px;}
 
    
+}
+
+.blur-project-img .project-banner-img {
+    opacity: 0.1;
+}
+
+.project-img-platter img.img-fluid.project-logo-img {
+    position: absolute;
+    width: 137px;
+    height: unset;
+    z-index: 9;
+    object-fit: unset;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* end of 1400 */
@@ -2580,18 +2588,5 @@ section#our-projects .col-md-6.p-0{display:flex;align-items:center}
 } 
 
 /* end of 767 */
+/* end of 767 */
 
-.blur-project-img .project-banner-img {
-    opacity: 0.1;
-}
-
-img.img-fluid.project-logo-img {
-    position: absolute;
-    width: 65px;
-    height: unset;
-    top: 35%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-    z-index: 11;
-    object-fit: unset;
-}
