@@ -137,6 +137,10 @@ h1, h2, h3, h4, h5, h6 {font-family: var(--Abhaya_Libre);}
     margin-top:50px!important;
 }
 
+.mt_60{
+    margin-top:60px!important;
+}
+
 .mt_80{
     margin-top:80px!important;
 }
@@ -2247,6 +2251,25 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
     .contact-left-section .head-section h3 {font-size: 28px;}
     .nri-form { padding: 0;}
 
+    /* Career */
+    .job-page .job-sec {display: flex; justify-content: center;flex-wrap: wrap;}
+    .job-part { width: 100%;padding: 20px 15px;}
+    .inn-job ul{padding: 0 !important;}
+    .job-part .jobapply { padding: 8px 10px; width: 50%;}
+    .job-part .btn-inn a { padding: 8px 10px;   width: 46%;font-size: 13px;}
+
+    /* EMI Calculator */
+    canvas#pieChart {height: 338px !important;margin-top: 50px; margin-left: 0 !important;}
+
+    /* Job Details */
+    .job-title {padding: 25px 20px;}
+    .job-details-container .btn-inn a {padding: 8px 30px;width: 50%;margin-top: 20px;}
+    .job-basic { padding: 25px 20px;}
+    .job-disc { padding: 25px 20px;}
+    .job-details-container .job-disc .btn-inn { margin-top: 10px;}
+
+    /* Tax Benefits */
+    .property-content-box {padding: 20px; }
 
     /* form */
     .form-bottom .logo{
