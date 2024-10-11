@@ -1011,6 +1011,7 @@ from{transform:scale(0);opacity:0}
 
 section#our-projects {
     /* padding-bottom: 100px; */
+    background: #fff6ed;
 }
 
 
@@ -1795,7 +1796,7 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 
 
 /* Hospitality */
-.hospitality-project-logo {width: 100px;display: block; margin: 0px auto 20px;}
+.hospitality-project-logo {width: 100px;display: block; margin:80px auto 20px;}
 .hospitality-platter-section {padding: 80px 0;}
 .hospitality-platter-section .our-projects {color: #b98655;padding: 0px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1;width: fit-content;padding-bottom: 10px;margin: auto;border-top-width: 0px;border-left-width: 0px;}
 .hospitality-platter-section .platter-para {text-align: center; padding-top: 16px;}
@@ -1806,9 +1807,7 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 .features-points p { font-size: 14px;letter-spacing: 0px;line-height: 30px;}
 .platter-width .project-status{border-top:1px solid #b98655;text-align:center;border-bottom:1px solid #b98655;letter-spacing: 16px;padding:10px;color:#b98655;text-transform:uppercase;margin-bottom: 10px;font-size: 20px;}
 
-.hospitality-platter-section {
-    padding-top: 0px;
-}
+
 
 
 section.footer-section .col-6.col-md-2 {display: flex; justify-content: center;}
@@ -1816,11 +1815,33 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .footer-quick-links { margin: 0px auto;width: 100%;}
 
 
+.hospitality-platter-section .hotels-details {padding: 50px;}
+.hospitality-platter-section .hotels-details img{    width: auto; height: 100px;display: block;margin: auto;padding: 20px;}
+.hospitality-platter-section .hotel-para-content { font-size: 14px; letter-spacing: 0.6px; text-align: justify;line-height: 26px;}
+.hospitality-platter-section .hotels-details .hotel-btn{display: block;    margin-top: 20px;text-align: center;}
+.hospitality-platter-section .hotels-details .hotel-btn a { margin: auto; text-align: center;text-decoration: none; color: #b88554; border: 1px solid #b98655; padding: 7px 15px;font-size: 14px;letter-spacing: 0.6px;margin-top: 15px;}
+
+
 /* platter page updated css */
 .banner-setion .banner.platter-page-banner img {
     height: calc(0px + 80vh);
     object-fit: cover;
 }
+.upcoming-location-section{padding: 80px 0;}
+.platter-head{font-size: 40px; padding: 25px 0;text-transform: uppercase;letter-spacing: 1px; word-spacing: 2px; width: 100%; text-align: center;}
+.upcoming-location-section .location-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #b98655;
+    margin: 0 0px;
+    padding: 6px 20px;
+    width: fit-content;
+    margin: auto;
+}
+.upcoming-location-section .location-details img{width: auto;height: 22px;}
+.upcoming-location-section .location-details p {font-weight: 500;letter-spacing: 0.6px;text-transform: uppercase;font-size: 14px;}
 
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
@@ -2128,7 +2149,41 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     letter-spacing: 6px;
 }
 
+.hospitality-platter-section .our-projects {
+    font-size: 14px;
+}
+.hospitality-platter-section .hotels-details {
+    padding: 10px 10px 40px;
+}
 
+.upcoming-location-section {
+    padding: 40px 0;
+}
+.platter-head {
+    font-size: 32px;
+    padding: 25px 0 0;
+}
+.upcoming-location-section .location-details {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #b98655;
+    margin: 0 0px;
+    padding: 6px 5px;
+    width: 100%;
+    margin: auto;
+}
+.upcoming-location-section .location-details img {
+    width: auto;
+    height: 16px;
+}
+.upcoming-location-section .location-details p {
+    font-size: 11px;
+}
+.upcoming-location-section .platter-head{font-size: 26px;
+    width: 100%;
+    text-align: center;}
 
 .hospitality-platter-section {padding: 40px 0}
 .hospitality-platter-section .key-features {font-size: 13px;}
