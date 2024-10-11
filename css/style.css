@@ -1955,6 +1955,9 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
         font-size: 14px;        
     }
 
+    section.footer-section .col-md-12.pt-lg-5 .row {
+        gap: 0px 48px;
+    }
 }
 
 /* end of 1600 */
@@ -2593,6 +2596,9 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
         padding-bottom: 0px;
     }
     
+    section.footer-section .col-md-12.pt-lg-5 .row {
+        gap: unset;
+    }
 
 
 } 
