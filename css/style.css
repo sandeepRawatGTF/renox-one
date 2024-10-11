@@ -1703,6 +1703,8 @@ canvas#pieChart {
 
 .overview-para-details h2.section-head-para{font-size:44px;width:100%;margin-top:15px;text-transform:uppercase;margin-top:30px;margin-bottom:40px;letter-spacing:1px;word-spacing:2px;text-align:start}
 .overview-para-details h2.section-head-para {font-size: 32px;}
+.overview-para-details.about-details-box{background-color:#fff;padding:40px;text-align:center;width: 45%;margin:0 auto;margin-top: 50px;margin-bottom: 50px;}
+.overview-para-details.about-details-box h2.section-head-para{margin-top:0!important;margin-bottom: 14px;}
 
 .inside-about-us h4.section-head{color:#b98655;border-bottom:2px solid transparent;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice:1;width:40%;padding-bottom:10px;text-align:start;width:fit-content}
 .inside-about-us .about-img-banner {margin-top: 30px;height: 700px;object-fit: cover;width: 100%;}
