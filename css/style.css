@@ -376,7 +376,7 @@ h3.top-b-high{font-size:35px}
     margin: 0;
     padding: 0px;
     display: grid;
-    gap: 50px 0px;
+    gap: 66px 0px;
     }
 
 
@@ -1036,7 +1036,7 @@ span.percentage {font-family: var(--Abhaya_Libre);font-size: 32px;font-weight: 5
 .project-section::before{content: '';position: absolute;top: 0;left: 0;height: 100%;width: 100%;background: url();z-index: -1;}
 p.our-projects-para {text-align: center;color: #000000;font-size: 16px;padding: 0px;letter-spacing: 1px;word-spacing: 1px;font-weight: 500;border-bottom: 2px solid transparent;border-image: linear-gradient(0.25turn, rgba(56, 2, 155, 0), rgb(241 215 124), rgb(255 125 0), rgb(241 215 124), rgba(56, 2, 155, 0));border-image-slice: 1;width: 14%;padding-bottom: 10px;margin: 0 auto;}
 
-.project-section .projects-details .pro-img{position: relative;overflow: hidden;z-index: -1;width: 100%;height: 500px;object-fit: cover;margin-top: 50px;}
+.project-section .projects-details .pro-img{position: relative;overflow: hidden;z-index: -1;width: 100%;height: 433px;object-fit: cover;margin-top: 50px;}
 .project-section .pro-img img{transition: transform 1s ease-in;}
 .projects-details:hover .pro-img img{transform: scale(1.1);}
 
@@ -1843,6 +1843,12 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .upcoming-location-section .location-details img{width: auto;height: 22px;}
 .upcoming-location-section .location-details p {font-weight: 500;letter-spacing: 0.6px;text-transform: uppercase;font-size: 14px;}
 
+.mega-download-btn {
+    display: none;
+}
+
+
+
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
     .leadership-box h4.main-heading-section{font-size: 32px;}
@@ -1876,9 +1882,9 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     .mega-top-bar {width: 100%;}
     img.mega-menu-logo {width: 130px;padding: 11px;}
     .hamburder-section.open .outer-half {}
-    .mega-menu ul>li a {font-size: 28px;}
-    .second-half .main-project-type {font-size: 26px;}
-    a.main-project{font-size: 26px;}
+    .mega-menu ul>li a {font-size: 24px;}
+    .second-half .main-project-type {font-size: 22px;}
+    a.main-project{font-size: 22px;}
 
     .mega-menu-bottom-section {  gap: 50px; }
     .mega-menu-bottom-section .mega-download-btn a {padding: 10px 15px;font-size: 14px;width: fit-content;}
