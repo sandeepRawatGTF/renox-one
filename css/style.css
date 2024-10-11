@@ -2092,6 +2092,11 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
     letter-spacing: 6px;
 }
 
+.hospitality-platter-section {padding: 40px 0}
+.hospitality-platter-section .key-features {font-size: 13px;}
+.features-points p { font-size: 12px;}
+.hospitality-platter-section .platter-para {text-align: center; padding-top: 16px;font-size: 14px;}
+
 .leadership-box p.main-subheadung-section{font-size: 16px;}
     .leadership-box h4.main-heading-section{font-size: 23px;}
     .nri-container .para-content{font-size: 12px;}
