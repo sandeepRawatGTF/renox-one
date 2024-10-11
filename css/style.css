@@ -1575,8 +1575,8 @@ canvas#pieChart {height: 600px!important; width: auto!important; margin-left: 10
 
 
 .container-fluid.nri-container.gray-section.home-loan {
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -1809,6 +1809,9 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 .hospitality-platter-section {
     padding-top: 0px;
 }
+
+
+
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
     .leadership-box h4.main-heading-section{font-size: 32px;}
@@ -1855,7 +1858,7 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
     .mega-menu-middle-section {}
 
     /* banner-section */
-    h1.animate-charcter {  font-size: 80px; }
+    h1.animate-charcter {font-size: 65px;}
 
     /* Overview section */
     .overview-section .logo-icon {width: 30px;padding-bottom: 17px;}

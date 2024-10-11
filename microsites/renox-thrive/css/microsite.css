@@ -1492,6 +1492,13 @@ section.header-section.fixed {
   display: block;
 }
 
+.hide-li {
+  display: none!important;
+}
+.header-section.fixed li.nav-item.hide-li {
+  display: flex!important;
+}
+
 @media(max-width: 1366px) {
   .slider-container .slider-content h1 {
       position: absolute;
