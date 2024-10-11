@@ -401,7 +401,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .overview-contaier .projetc-status {
     font-family: Vonca-Regular;
     letter-spacing: 26px;
-    color: #70554d;
+    color: #a67444;
     width: fit-content;
     text-align: center;
     font-size: 36px;
@@ -559,7 +559,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .highlights-container .specifications-content-box {
     height: 168px;
-    border-bottom: 1px solid #70554d47
+    border-bottom: 1px solid #a6744447
 }
 
 .highlights-container div#menu1 {
@@ -696,7 +696,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
 .pricelist-container .price-box .btn-custom {
     display: block;
-    background-color: #70554D;
+    background-color: #a67444;
     color: #fff;
     padding: 8px 20px;
     letter-spacing: 1px;
@@ -817,7 +817,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .amenities-container .amenities-ul::-webkit-scrollbar-thumb {
-    background: #70554d6e
+    background: #a674446e
 }
 
 .amenities-container .amenities-ul::-webkit-scrollbar-thumb:hover {
@@ -851,8 +851,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .floorplan-container .nav-tabs .nav-link {
-    border: 1px solid #70554d !important;
-    color: #70554d !important;
+    border: 1px solid #a67444 !important;
+    color: #a67444 !important;
     padding: 10px 30px;
     letter-spacing: 1px;
     border-radius: 0px !important;
@@ -867,7 +867,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     border-radius: 0;
     font-family: 'Vonca-Regular';
     text-transform: uppercase;
-    background-color: #70554d !important;
+    background-color: #a67444 !important;
     color: #fff !important;
     padding: 10px 30px;
     letter-spacing: 1px;
@@ -915,7 +915,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .floorplan-container .nasted-ul-tb .nastedtbActive {
     border: none;
     padding: 8px 15px;
-    background-color: #70554d;
+    background-color: #a67444;
     color: #fff;
     letter-spacing: 1px;
 }
@@ -971,13 +971,13 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .floorplan-container .btn-slider .carousel-control-prev,.floorplan-container .btn-slider .carousel-control-next {
     position: relative;
     margin-right: 25px;
-    color: #70554d;
+    color: #a67444;
     opacity: 1;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     font-size: 20px;
-    background-color: #70554d
+    background-color: #a67444
 }
 
 .floorplan-container .carousel-control-prev-icon, .floorplan-container .carousel-control-next-icon {
@@ -1244,7 +1244,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 .footer-container {
     padding-top: 71px;
     padding-bottom: 40px;
-    background-color: #70554d
+    background-color: #a67444
 }
 
 .footer-container .slogan-heading {
@@ -1414,7 +1414,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 .modal-body .btn-custom-2 {
-    background-color: #70554de6;
+    background-color: #a67444e6;
     color: #fff;
     border-radius: 0;
     font-size: 15px;
@@ -1665,16 +1665,17 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .slider-container .slider-content h1 {
-        letter-spacing: 20px;
-        font-size: 20px;
-        top: 25px;
+        letter-spacing: 12px;
+        font-size: 18px;
+        top: 32px;
         left: 52%;
+        line-height: 24px;
     }
 
     .location-project-heading {
         font-size: 12px;
         letter-spacing: 2px;
-        top: 42px;
+        top: 48px;
     }
 
     .container-fluid.custom-navbar {
@@ -1748,7 +1749,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
         right: 0;
         bottom: 0;
         z-index: 99;
-        background: #70554d;
+        background: #a67444;
         color: var(--white)!important;
         border-radius: 0;
         font-size: 8px;
@@ -2034,7 +2035,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
         gap: 0px 9px;
         text-align: center;
         justify-content: center;
-        width: calc(50% - 10px);
+        width: 100%;
         margin: 0px auto;
         align-items: baseline;
         padding: 2px;
@@ -2316,8 +2317,8 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .location-container {
-        padding: 0px;
-        padding-top: 0;
+        padding: 50px 0;
+        padding-top: 50px;
     }
     .bottom-footer-section {
         padding: 30px 0 60px !important; 
