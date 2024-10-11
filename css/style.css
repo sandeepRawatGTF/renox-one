@@ -1797,6 +1797,7 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 .hospitality-project-logo {width: 100px;display: block; margin: 0px auto 20px;}
 .hospitality-platter-section {padding: 80px 0;}
 .hospitality-platter-section .our-projects {color: #b98655; padding: 0px 0 0px; font-size: 16px; font-weight: 500;letter-spacing: 0.2px; word-spacing: 1px; border-bottom: 2px solid transparent; border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0));border-image-slice: 1; width: fit-content;padding-bottom: 10px; margin: auto}
+<<<<<<< HEAD
 h4.project-status{width:100%;text-align:center;color:#b98655;padding:10px;margin-bottom: 10px;letter-spacing: 20px;text-transform:uppercase;border-top:1px solid #b98655;border-bottom:1px solid #b98655;font-size: 20px;}
 section#our-projects .col-md-6.p-0{display:flex;align-items:center}
 .platter-width{width:100%}
@@ -1806,6 +1807,14 @@ section#our-projects .col-md-6.p-0{display:flex;align-items:center}
     margin-bottom: 80px;
     margin-top: 30px;
 }
+=======
+.hospitality-platter-section .platter-para {text-align: center; padding-top: 16px;}
+
+.hospitality-platter-section .platter-project-details p.platter-project-content {margin-bottom: 5px;}
+.hospitality-platter-section .key-features {font-weight: 500;font-size: 15px;}
+.features-points { display: flex;flex-direction: column;gap: 8px;}
+.features-points p { font-size: 14px;letter-spacing: 0px;line-height: 30px;}
+>>>>>>> 249d3fea208dd4547daf9bb6e291f7966b822e0d
 
 @media (max-width: 1600px) {
     .leadership-box p.main-subheadung-section{font-size: 19px;}
@@ -2094,6 +2103,11 @@ section#our-projects .col-md-6.p-0{display:flex;align-items:center}
     width: 90%;
     letter-spacing: 6px;
 }
+
+.hospitality-platter-section {padding: 40px 0}
+.hospitality-platter-section .key-features {font-size: 13px;}
+.features-points p { font-size: 12px;}
+.hospitality-platter-section .platter-para {text-align: center; padding-top: 16px;font-size: 14px;}
 
 .leadership-box p.main-subheadung-section{font-size: 16px;}
     .leadership-box h4.main-heading-section{font-size: 23px;}
