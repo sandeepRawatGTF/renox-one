@@ -1999,6 +1999,21 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
    
 }
 
+.blur-project-img .project-banner-img {
+    opacity: 0.1;
+}
+
+.project-img-platter img.img-fluid.project-logo-img {
+    position: absolute;
+    width: 137px;
+    height: unset;
+    z-index: 9;
+    object-fit: unset;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* end of 1400 */
 
 
@@ -2575,17 +2590,3 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 /* end of 767 */
 /* end of 767 */
 
-.blur-project-img .project-banner-img {
-    opacity: 0.1;
-}
-
-img.img-fluid.project-logo-img {
-    position: absolute;
-    width: 137px;
-    height: unset;
-    z-index: 9;
-    object-fit: unset;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
