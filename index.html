@@ -348,48 +348,6 @@
             <div class="item">
               <div class="projects-details">
                 <div class="pro-img">
-                  <img src="images/projects/main-page-projects/Avantika.png" alt="" class="img-fluid">
-                </div>
-                <div class="pro-name-sec">
-                  <p> Crossing Republik, Ghaziabad</p>
-                  <h3> Avantika Retail Street </h3>
-                  <p class="project-sub-para">Shops, Markets, Food Streets, Retail Markets, Showrooms</p>
-                  <p class="project-status">Status : Ready To Sell</p>
-                  <a href="">Know More</a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="projects-details">
-                <div class="pro-img">
-                  <img src="images/projects/main-page-projects/lotus-shrishti.png" alt="" class="img-fluid">
-                </div>
-                <div class="pro-name-sec">
-                  <p> Crossing Republik, Ghaziabad</p>
-                  <h3> Lotus Shrishti</h3>
-                  <p class="project-sub-para">4,3 BHK Villas & 2,3 BHK Apartments</p>
-                  <p class="project-status">Status : Ready To Move</p>
-                  <a href="">Know More</a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="projects-details">
-                <div class="pro-img">
-                  <img src="images/projects/main-page-projects/lotus-villas.png" alt="" class="img-fluid">
-                </div>
-                <div class="pro-name-sec">
-                  <p> Jalpura, Noida Ext.</p>
-                  <h3> Lotus Villas </h3>
-                  <p class="project-sub-para">3 BHK Villas</p>
-                  <p class="project-status">Status : Ready To Move</p>
-                  <a href="">Know More</a>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="projects-details">
-                <div class="pro-img">
                   <img src="images/projects/main-page-projects/navrang.png" alt="" class="img-fluid">
                 </div>
                 <div class="pro-name-sec">
@@ -415,6 +373,52 @@
                 </div>
               </div>
             </div>
+            <div class="item">
+              <div class="projects-details">
+                <div class="pro-img">
+                  <img src="images/projects/main-page-projects/lotus-shrishti.png" alt="" class="img-fluid">
+                </div>
+                <div class="pro-name-sec">
+                  <p> Crossing Republik, Ghaziabad</p>
+                  <h3> Lotus Shrishti</h3>
+                  <p class="project-sub-para">4,3 BHK Villas & 2,3 BHK Apartments</p>
+                  <p class="project-status">Status : Ready To Move</p>
+                  <a href="">Know More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="projects-details">
+                <div class="pro-img">
+                  <img src="images/projects/main-page-projects/lotus-villas.png" alt="" class="img-fluid">
+                </div>
+                <div class="pro-name-sec">
+                  <p> Jalpura, Noida Ext.</p>
+                  <h3> Lotus Villas </h3>
+                  <p class="project-sub-para">3 BHK Villas</p>
+                  <p class="project-status">Status : Ready To Move</p>
+                  <a href="">Know More</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item">
+              <div class="projects-details">
+                <div class="pro-img">
+                  <img src="images/projects/main-page-projects/Avantika.png" alt="" class="img-fluid">
+                </div>
+                <div class="pro-name-sec">
+                  <p> Crossing Republik, Ghaziabad</p>
+                  <h3> Avantika Retail Street </h3>
+                  <p class="project-sub-para">Shops, Markets, Food Streets, Retail Markets, Showrooms</p>
+                  <p class="project-status">Status : Ready To Sell</p>
+                  <a href="">Know More</a>
+                </div>
+              </div>
+            </div>
+
 
           </div>
 
@@ -970,42 +974,60 @@
   </script>
 
   <script>
-    const prevIcon1 = `<img src="images/icons/testimonial-icon/prev-button.png" alt="left">`
-    const nextIcon1 = `<img src="images/icons/testimonial-icon/next-button.png" alt="right">`
-    $('#owl-two').owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      dots: false,
-      autoplay: true,
-      autoplayHoverPause: true,
-      autoplayTimeout: 10000,
-      autoplaySpeed: 3000,
-      navText: [
-        prevIcon1,
-        nextIcon1
-      ],
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 1
-        },
-        1000: {
-          items: 1
-        },
+// Initialize the carousel without autoplay
+$('#owl-two').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  dots: false,
+  autoplay: false, // Autoplay is initially disabled
+  autoplayHoverPause: true,
+  autoplayTimeout: 10000,
+  autoplaySpeed: 3000,
+  navText: [
+    prevIcon1,
+    nextIcon1
+  ],
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 1
+    },
+    1000: {
+      items: 1
+    },
+    1400: {
+      items: 2
+    },
+    2000: {
+      items: 2
+    }
+  }
+});
 
-       1400: {
-          items: 2
-        },
+// Function to start and stop autoplay
+function toggleAutoplay(autoplay) {
+  $('#owl-two').trigger('autoplay.' + (autoplay ? 'play.owl' : 'stop.owl'), [10000]);
+}
 
-        2000: {
-          items: 2
-        }
-      
-      }
-    })
+// Use IntersectionObserver to trigger autoplay when section is in view
+let observer = new IntersectionObserver(function(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Section is in view, start autoplay
+      toggleAutoplay(true);
+    } else {
+      // Section is out of view, stop autoplay
+      toggleAutoplay(false);
+    }
+  });
+}, { threshold: 0.5 }); // Trigger when 50% of the section is in view
+
+// Observe the testimonial section
+observer.observe(document.querySelector('.testimonial-section'));
+
   </script>
 
   <script>
