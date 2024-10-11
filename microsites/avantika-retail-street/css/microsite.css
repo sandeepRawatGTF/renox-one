@@ -1696,16 +1696,17 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
     }
 
     .slider-container .slider-content h1 {
-        letter-spacing: 20px;
+        letter-spacing: 14px;
         font-size: 20px;
-        top: 25px;
+        top: 35px;
         left: 52%;
+        line-height: 30px;
     }
 
     .location-project-heading {
         font-size: 12px;
         letter-spacing: 2px;
-        top: 42px;
+        top: 55px;
     }
 
     .container-fluid.custom-navbar {
@@ -1803,7 +1804,7 @@ body, p, h1, h2, h3, h4, h5, h6, ul, li {
 
     .scrolldown-img {
         position: absolute;
-        top: 93px;
+        top: 103px;
         left: 50%;
         width: auto;
         height: 24px;
