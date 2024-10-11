@@ -1887,21 +1887,21 @@ section.container-fluid.job-details-container .job-title  h4 {margin-bottom: 10p
 
     /* Project Boxes section */
     .project-section .our-projects {letter-spacing: 1px;word-spacing: 2px;font-size: 32px;}
-    .projects-details { height: 450px;}
+    .projects-details {height: 522px;}
     .owl-item.active .pro-img {width: 74%;}
     .project-section .pro-name-sec {right: 0%;bottom: 0%;width: 50%;}
     .project-section .pro-name-sec p {font-size: 13px;}
-    .project-section .pro-name-sec h3 {font-size: 25px;}
-    .project-section .pro-name-sec p {font-size: 11px;color: #454545;}
-    .project-section .pro-name-sec a { font-size: 10px; letter-spacing: 0.7px; margin-top: 15px; }
+    .project-section .pro-name-sec h3 {font-size: 25px;padding-bottom: 10px;padding-top: 10px;}
+    .project-section .pro-name-sec p {font-size: 14px;color: #454545;}
+    .project-section .pro-name-sec a {font-size: 14px;letter-spacing: 0.7px;margin-top: 15px;}
     .project-section .pro-name-sec .project-status {font-size: 14px;font-weight: 600;}
     .project-section .pro-name-sec p.project-status {font-size: 14px;font-weight: 500;}
 
-    .project-section .owl-nav {position: relative; top: 100px;}
+    .project-section .owl-nav {position: relative;top: 46px;}
     button.owl-prev {left: 33%;}
     button.owl-next {right: 33%;}
-     #owl-one .owl-dots{position: relative; left: 50%; transform: translateX(-50%); bottom: 0; top: 85px;}
-    div#counter {margin-top: 100px;}
+     #owl-one .owl-dots{position: relative;left: 50%;transform: translateX(-50%);bottom: 0;top: 32px;}
+    div#counter {margin-top: 39px;}
     p.our-projects-para {width: 10%;padding-bottom: 10px;font-size: 16px;}
 
     /* Amenity Section */
