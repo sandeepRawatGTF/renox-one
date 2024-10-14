@@ -1855,7 +1855,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .our-media-section .our-media-para {    font-size: 40px;margin: 0;padding: 0px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px; width: 70%;margin: auto;text-align: center;}
 .media-boxes{transition: all 0.5s linear;}
 .media-boxes a{position: relative;}
-.media-boxes .youtube-icon{position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);/*display: none !important;*/width: 80px !important;display: unset;}
+.media-boxes .youtube-icon{position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);/*display: none !important;*/width: 80px !important;display: unset !important;}
 /*.media-boxes:hover .youtube-icon{display: block !important;width: 80px;}*/
 
 .media-boxes a .media-img{height: 300px;width: 100%;object-fit: cover;object-position: center;    border-radius: 10px;}
