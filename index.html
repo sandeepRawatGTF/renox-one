@@ -8,11 +8,13 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link href="favicon1.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
+
 
 </head>
 
@@ -194,6 +196,17 @@
           <!-- <h1 class="animate-charcter"> Renox <span>Group​</span> </h1> -->
 <!-- 
         </div> -->
+
+        <div class="sound-button">
+          <div class="sound">
+            <div class="sound-icon fa fa-volume-off"></div>
+            <div class="sound-wave sound-wave_one"></div>
+            <div class="sound-wave sound-wave_two"></div>
+          </div>
+        </div>
+
+
+
       </section>
 
 
@@ -935,6 +948,45 @@
   </script>
 
   <script>
+    $(document).ready(function(){
+    var spans = $('.loader-heading span');
+    var index = 0;
+
+    function addActiveClass() {
+        if (index < spans.length) {
+            $(spans[index]).addClass('active');
+            index++;
+            setTimeout(addActiveClass, 250); // Delay for adding 'active' class
+        } else {
+            // After the last span has the 'active' class
+            $('.wait-heading').addClass('hide'); // Add 'hide' class to the wait-heading
+            $('.enter-website-button').addClass('show'); // Add 'show' class to the enter-website-button
+        }
+    }
+
+    addActiveClass();
+
+    // Remove 'overflow-hidden' from body on button click
+    $('.enter-website-button').click(function() {
+        $('body').removeClass('overflow-hidden');
+    });
+
+    // Hide loader on button click
+    $('.enter-website-button').click(function() {
+        $('.loader-box').addClass('loader-hidden');
+    });
+
+    // Play video with sound only on button click
+    $('.enter-website-button').click(function() {
+        var video = $('.banner-video')[0]; // Select the video element
+        video.muted = false; // Unmute the video
+        video.play(); // Play the video
+    });
+});
+
+  </script>
+
+  <script>
 
     document.addEventListener("DOMContentLoaded", (event) => {
       gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -1376,41 +1428,8 @@ observer.observe(document.querySelector('.testimonial-section'));
   </script>
 
 <script>
-$(document).ready(function(){
-    var spans = $('.loader-heading span');
-    var index = 0;
 
-    function addActiveClass() {
-        if (index < spans.length) {
-            $(spans[index]).addClass('active');
-            index++;
-            setTimeout(addActiveClass, 250); // Delay for adding 'active' class
-        } else {
-            // After the last span has the 'active' class
-            $('.wait-heading').addClass('hide'); // Add 'hide' class to the wait-heading
-            $('.enter-website-button').addClass('show'); // Add 'show' class to the enter-website-button
-        }
-    }
 
-    addActiveClass();
-
-    // Remove 'overflow-hidden' from body on button click
-    $('.enter-website-button').click(function() {
-        $('body').removeClass('overflow-hidden');
-    });
-
-    // Hide loader on button click
-    $('.enter-website-button').click(function() {
-        $('.loader-box').addClass('loader-hidden');
-    });
-
-    // Play video with sound only on button click
-    $('.enter-website-button').click(function() {
-        var video = $('.banner-video')[0]; // Select the video element
-        video.muted = false; // Unmute the video
-        video.play(); // Play the video
-    });
-});
 
 
 
