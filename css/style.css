@@ -2079,6 +2079,11 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     a.blantershow-chat {right: 80px;padding: 8px 15px;gap: 3px;}
     .about-builder p {font-size: 12px;}
 
+    /* mega menu section */
+    .last-part img { width: 315px;}
+    .hamburder-section.open .outer-half {gap: 50px 0px;}
+    .mega-menu-middle-section {height: 70%;}
+
    
 }
 
