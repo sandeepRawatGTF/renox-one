@@ -429,14 +429,14 @@ h3.top-b-high{font-size:35px}
 
 
         .second-half {width: auto;padding: 0px;opacity: 1;/* transition: all 1s ease-in-out; */display: flex;flex-direction: column;justify-content: start;margin-top: 0px;}
-        .second-half .main-project-type{color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 32px;letter-spacing: 1px;margin-bottom: 30px;border: 1px solid #b9865547;padding: 10px 30px;font-family: var(--Abhaya_Libre);/* transition: transform 2s linear; */}
+        .second-half .main-project-type{color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 26px;letter-spacing: 1px;margin-bottom: 30px;border: 1px solid #b9865547;padding: 10px 30px;font-family: var(--Abhaya_Libre);/* transition: transform 2s linear; */}
         a.main-project {
             color: #b98655;
             text-transform: uppercase;
             font-weight: 700;
             cursor: pointer;
             text-decoration: none;
-            font-size: 32px;
+            font-size: 26px;
             letter-spacing: 1px;
             margin-bottom: 30px;
             border: 1px solid #b9865547;
@@ -447,7 +447,7 @@ h3.top-b-high{font-size:35px}
         .second-half .main-project-type:hover img{transform: translateX(25%);}
 
         .mega-menu ul>li {list-style: none;color: #fff;text-transform: uppercase;font-weight: bold;cursor: pointer;}
-        .mega-menu ul>li a {color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 35px;font-family: var(--Abhaya_Libre);}
+        .mega-menu ul>li a {color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 26px;font-family: var(--Abhaya_Libre);}
         .second-half h2 {  font-size: 42px; color: #fff; letter-spacing: 2px; text-align: center; margin-bottom: 25px; }
         .second-half p { font-size: 17px;color: #fff; text-align: center;  line-height: 30px; font-family: 'Roboto'; }
         .close-btn {border: 1px solid #b9865533;padding: 10px;font-size: 16px;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;color: #b98655;/* position: absolute; */right: 6%;top: 5%;cursor: pointer;outline: 1px solid #b9865569;outline-offset: -4px;}
@@ -490,7 +490,7 @@ h3.top-b-high{font-size:35px}
 
         .details-flex {display: flex; flex-direction: column;    gap: 40px; }
         .details-flex .sub-projects {display: flex; flex-direction: column; }
-        .details-flex .sub-projects a {text-decoration: none; color: #b98655; font-size: 32px;  font-family: var(--Abhaya_Libre); letter-spacing: 0.4px; word-spacing: 1px;padding-bottom: 20px; font-weight: 600; }
+        .details-flex .sub-projects a {text-decoration: none;color: #b98655;font-size: 26px;font-family: var(--Abhaya_Libre);letter-spacing: 0.4px;word-spacing: 1px;padding-bottom: 20px;font-weight: 600;}
         .project-name {display: flex; flex-direction: column; }
 
        /* .second-half-dropdown { opacity: 0; height: 0;overflow: hidden;   transition: opacity 0.5s ease, height 0.5s ease;  }
