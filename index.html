@@ -16,7 +16,8 @@
 
 </head>
 
-<body>
+<body class="overflow-hidden">
+
   <section class="header-section">
     <nav class="navbar navbar-expand-lg">
       <div class="container d-justify-content-space-between d-lg-justify-content-center p-0">
@@ -145,13 +146,20 @@
       <section class="banner-setion">
         <div class="banner">
           <div class="container-fluid banner-container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <video  loop playsinline class="banner-video d_sm_none">
+              <source src="images/desktop-video.mp4" type="video/mp4">
+            </video>
+            <video  loop playsinline class="banner-video d_sm_block">
+              <source src="images/mobile-video.mp4" type="video/mp4">
+            </video>
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="images/banner/banner-1.webp" class="d-view">
                   <img src="images/banner/banner-1-sm.webp" class="m-view">
                 </div>
-              </div>
+              </div> -->
               <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -160,7 +168,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button> -->
-            </div>
+            <!-- </div> -->
             <section id="scroll-btn" class="scroll-btn">
               <a href="#overview"><span></span>Scroll Down</a>
             </section>
@@ -180,12 +188,12 @@
       </div>-->
         </div>
 
-        <div class="project-details-ban">
+        <!-- <div class="project-details-ban"> -->
           <!-- <p class="project-loc">Sector 15, Gurgaon</p> -->
 
-          <h1 class="animate-charcter"> Renox <span>Group​</span> </h1>
-
-        </div>
+          <!-- <h1 class="animate-charcter"> Renox <span>Group​</span> </h1> -->
+<!-- 
+        </div> -->
       </section>
 
 
@@ -848,6 +856,40 @@
 
 
 
+
+    <div class="loader-box">
+
+      <div class="loader-content">
+  
+        <!-- <img src="images/renox1.png" alt="" class="img-fluid loader-project-logo"> -->
+         <p class="sub-heading-loader">Welcome</p>
+        <h4 class="loader-heading"> <span>R</span><span>e</span><span>n</span><span>o</span><span>x</span> <span>G</span><span>r</span><span>o</span><span>u</span><span>p</span></h4>
+        <p class="wait-heading">Wait a Few Seconds</p>
+        <h4 class="enter-website-button">Explore Renox Group</h4>
+   
+  
+  
+      </div>
+      <p class="loader-bottom-heading">Real Estate</p>
+    </div>
+
+  <script>
+      (function(){
+          if (window.matchMedia("(max-width: 600px)").matches) {
+              Array.from(document.getElementsByClassName('d_sm_none')).forEach(function(item){
+                  item.parentNode.removeChild(item);
+              });
+          }else{
+              Array.from(document.getElementsByClassName('d_sm_block')).forEach(function(item){
+                  item.parentNode.removeChild(item);
+              });
+          }
+      })()
+  </script>
+  
+
+
+
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
@@ -1333,7 +1375,47 @@ observer.observe(document.querySelector('.testimonial-section'));
     });
   </script>
 
+<script>
+$(document).ready(function(){
+    var spans = $('.loader-heading span');
+    var index = 0;
 
+    function addActiveClass() {
+        if (index < spans.length) {
+            $(spans[index]).addClass('active');
+            index++;
+            setTimeout(addActiveClass, 250); // Delay for adding 'active' class
+        } else {
+            // After the last span has the 'active' class
+            $('.wait-heading').addClass('hide'); // Add 'hide' class to the wait-heading
+            $('.enter-website-button').addClass('show'); // Add 'show' class to the enter-website-button
+        }
+    }
+
+    addActiveClass();
+
+    // Remove 'overflow-hidden' from body on button click
+    $('.enter-website-button').click(function() {
+        $('body').removeClass('overflow-hidden');
+    });
+
+    // Hide loader on button click
+    $('.enter-website-button').click(function() {
+        $('.loader-box').addClass('loader-hidden');
+    });
+
+    // Play video with sound only on button click
+    $('.enter-website-button').click(function() {
+        var video = $('.banner-video')[0]; // Select the video element
+        video.muted = false; // Unmute the video
+        video.play(); // Play the video
+    });
+});
+
+
+
+
+</script>
 
 </body>
 
