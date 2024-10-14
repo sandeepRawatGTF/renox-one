@@ -376,7 +376,7 @@ h3.top-b-high{font-size:35px}
     margin: 0;
     padding: 0px;
     display: grid;
-    gap: 66px 0px;
+    gap: 40px 0px;
     }
 
 
@@ -429,7 +429,7 @@ h3.top-b-high{font-size:35px}
 
 
         .second-half {width: auto;padding: 0px;opacity: 1;/* transition: all 1s ease-in-out; */display: flex;flex-direction: column;justify-content: start;margin-top: 0px;}
-        .second-half .main-project-type{color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 26px;letter-spacing: 1px;margin-bottom: 30px;border: 1px solid #b9865547;padding: 10px 30px;font-family: var(--Abhaya_Libre);/* transition: transform 2s linear; */}
+        .second-half .main-project-type{color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 26px;letter-spacing: 1px;margin-bottom: 30px;border: 1px solid #b9865547;padding: 10px 30px;font-family: var(--Abhaya_Libre);/* transition: transform 2s linear; */font-weight: 300;letter-spacing: 2px;}
         a.main-project {
             color: #b98655;
             text-transform: uppercase;
@@ -443,11 +443,13 @@ h3.top-b-high{font-size:35px}
             padding: 10px 30px;
             font-family: var(--Abhaya_Libre);
             transition: transform 2s linear;
+            font-weight: 300;
+            letter-spacing: 2px;
         }
         .second-half .main-project-type:hover img{transform: translateX(25%);}
 
         .mega-menu ul>li {list-style: none;color: #fff;text-transform: uppercase;font-weight: bold;cursor: pointer;}
-        .mega-menu ul>li a {color: #b98655;text-transform: uppercase;font-weight: 700;cursor: pointer;text-decoration: none;font-size: 26px;font-family: var(--Abhaya_Libre);}
+        .mega-menu ul>li a {color: #b98655;text-transform: uppercase;cursor: pointer;text-decoration: none;font-size: 26px;font-family: var(--Abhaya_Libre);font-weight: 300;letter-spacing: 2px;}
         .second-half h2 {  font-size: 42px; color: #fff; letter-spacing: 2px; text-align: center; margin-bottom: 25px; }
         .second-half p { font-size: 17px;color: #fff; text-align: center;  line-height: 30px; font-family: 'Roboto'; }
         .close-btn {border: 1px solid #b9865533;padding: 10px;font-size: 16px;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;color: #b98655;/* position: absolute; */right: 6%;top: 5%;cursor: pointer;outline: 1px solid #b9865569;outline-offset: -4px;}
@@ -1883,6 +1885,10 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .sound-button { position: absolute;bottom: -9%; transform: scale(0.15); left: -4%;}
 
 
+.second-half-right-arrow {
+    width: auto;
+    height: 21px;
+}
 
 @media (max-width: 1600px) {
 
@@ -1931,8 +1937,8 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     .mega-top-bar {width: 100%;}
     img.mega-menu-logo {width: 130px;padding: 11px;}
     .hamburder-section.open .outer-half {}
-    .mega-menu ul>li a {font-size: 24px;}
-    .second-half .main-project-type {font-size: 22px;}
+    .mega-menu ul>li a {font-size: 20px;}
+    .second-half .main-project-type {font-size: 20px;}
     a.main-project{font-size: 22px;}
 
     .mega-menu-bottom-section {  gap: 50px; }
@@ -1940,7 +1946,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     .copyright-section {display: flex;gap: 10px;}
     .copyright-section p {font-size: 12px;}
     .mega-menu-bottom-section .mega-social-media-icons a img {width: auto;height: 16px;}
-    .last-part img {height: 100%;width: 375px;object-fit: cover;}
+    .last-part img {/* height: 100%; */width: 524px;object-fit: cover;}
     .mega-menu-middle-section {}
 
     /* banner-section */
@@ -2094,7 +2100,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     .about-builder p {font-size: 12px;}
 
     /* mega menu section */
-    .last-part img { width: 315px;}
+    .last-part img {width: 418px;height: 378px;}
     .hamburder-section.open .outer-half {gap: 50px 0px;}
     .mega-menu-middle-section {height: 70%;}
 
