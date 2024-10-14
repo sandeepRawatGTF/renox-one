@@ -986,6 +986,41 @@
     });
 });
 
+
+  document.querySelector('.sound-button').addEventListener('click', function() {
+    // Get both video elements
+    const desktopVideo = document.querySelector('.banner-video.d_sm_none');
+    const mobileVideo = document.querySelector('.banner-video.d_sm_block');
+    
+    // Check the muted state of either video (assuming both are in sync)
+    const isMuted = desktopVideo.muted; 
+
+    // Toggle the muted state
+    desktopVideo.muted = !isMuted;
+    mobileVideo.muted = !isMuted;
+
+    // Update the sound icon
+    const soundIcon = document.querySelector('.sound-icon');
+    if (isMuted) {
+      soundIcon.classList.remove('fa-volume-off');
+      soundIcon.classList.add('fa-volume-up');
+    } else {
+      soundIcon.classList.remove('fa-volume-up');
+      soundIcon.classList.add('fa-volume-off');
+    }
+
+    // Optionally toggle the sound wave animation
+    document.querySelector('.sound-wave_one').classList.toggle('active', !isMuted);
+    document.querySelector('.sound-wave_two').classList.toggle('active', !isMuted);
+  });
+
+
+  $('.sound').click(function() {
+  $(this).toggleClass('sound-mute');
+});
+
+
+
   </script>
 
   <script>
