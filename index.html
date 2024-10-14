@@ -8,11 +8,13 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link href="favicon1.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
+
 
 </head>
 
@@ -194,6 +196,17 @@
           <!-- <h1 class="animate-charcter"> Renox <span>Group​</span> </h1> -->
 <!-- 
         </div> -->
+
+        <div class="sound-button">
+          <div class="sound">
+            <div class="sound-icon fa fa-volume-off"></div>
+            <div class="sound-wave sound-wave_one"></div>
+            <div class="sound-wave sound-wave_two"></div>
+          </div>
+        </div>
+
+
+
       </section>
 
 
@@ -1411,6 +1424,38 @@ $(document).ready(function(){
         video.play(); // Play the video
     });
 });
+
+$('.sound').click(function() {
+  $(this).toggleClass('sound-mute');
+});
+
+
+  document.querySelector('.sound-button').addEventListener('click', function() {
+    // Get both video elements
+    const desktopVideo = document.querySelector('.banner-video.d_sm_none');
+    const mobileVideo = document.querySelector('.banner-video.d_sm_block');
+    
+    // Check the muted state of either video (assuming both are in sync)
+    const isMuted = desktopVideo.muted; 
+
+    // Toggle the muted state
+    desktopVideo.muted = !isMuted;
+    mobileVideo.muted = !isMuted;
+
+    // Update the sound icon
+    const soundIcon = document.querySelector('.sound-icon');
+    if (isMuted) {
+      soundIcon.classList.remove('fa-volume-off');
+      soundIcon.classList.add('fa-volume-up');
+    } else {
+      soundIcon.classList.remove('fa-volume-up');
+      soundIcon.classList.add('fa-volume-off');
+    }
+
+    // Optionally toggle the sound wave animation
+    document.querySelector('.sound-wave_one').classList.toggle('active', !isMuted);
+    document.querySelector('.sound-wave_two').classList.toggle('active', !isMuted);
+  });
 
 
 
