@@ -1151,6 +1151,13 @@ h4.form_title{color:#fff;margin-bottom:20px;border:1px solid;border-radius:5px;p
 section.footer{padding:50px}
 p.btm-foot {font-size: 13px;text-align: center;color: #fff;line-height: 23px;letter-spacing: .5px;display: flex;justify-content: center;gap: 40px;}
 .social-media-links a {border: 1px solid #ffffff00;border-bottom: 1px solid #ffffff30;padding: 4px 15px;transition:all 0.3s ease-in;}
+h2.contact-main-heading {
+    font-size: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: start;
+}
 
 .bottom-footer-section {
     display: flex;
@@ -1854,7 +1861,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .our-media-section .our-media-head{    color: #b98655;padding: 0px 0 0px;font-size: 16px;font-weight: 500;letter-spacing: 0.2px;word-spacing: 1px;border: none !important;border-bottom: 2px solid transparent !important;border-image: linear-gradient(0.25turn, rgb(241 215 124), rgb(185 134 85), rgba(56, 2, 155, 0)) !important;border-image-slice: 1 !important;width: fit-content;padding-bottom: 10px;margin: auto;border-top-width: 0px !important;border-left-width: 0px !important;}
 .our-media-section .our-media-para {    font-size: 40px;margin: 0;padding: 0px 0;text-transform: uppercase;letter-spacing: 1px;word-spacing: 2px; width: 70%;margin: auto;text-align: center;}
 .media-boxes{transition: all 0.5s linear;}
-.media-boxes a{position: relative;}
+.media-boxes a{position: relative;display: block;}
 .media-boxes .youtube-icon{position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);/*display: none !important;*/width: 80px !important;display: unset !important;}
 /*.media-boxes:hover .youtube-icon{display: block !important;width: 80px;}*/
 
@@ -1878,6 +1885,13 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 
 
 @media (max-width: 1600px) {
+
+    /* contact us  */
+    h2.contact-main-heading {font-size: 32px;line-height: 40px; margin-bottom: 20px;}
+    h3.find-us {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
 
     /* Our Media */
 
@@ -2207,6 +2221,9 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     .leadership-box h4.main-heading-section{font-size: 23px;}
     .nri-container .para-content{font-size: 12px;}
 
+    /* contact us */
+    h2.contact-main-heading {font-size: 22px;line-height: 30px; margin-bottom: 20px;}
+    h3.find-us {font-size: 22px; margin-bottom: 15px;}
     /* Our Media */
     .our-media-section {padding: 40px 0;}
     .our-media-section .our-media-head {font-size: 13px;letter-spacing: 0.6px;padding-bottom: 5px;}
