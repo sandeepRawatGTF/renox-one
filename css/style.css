@@ -1983,7 +1983,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
     h2.amenity-para { font-size: 32px;}
     .amenities-section .amenity-box img {width: 48px;}
     .amenity-box p{font-size: 13px;}
-    .amenities-section .amenity-box { margin: 5px 20px 0;}
+    .amenities-section .amenity-box {margin: 5px 10px 0;}
 
     /* testimonial-section */
     .testimonial-section .logo-icon {width: 30px;display: block;margin: auto;}
