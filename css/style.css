@@ -457,11 +457,11 @@ h3.top-b-high{font-size:35px}
         .mega-menu ul>li a {color: #000000;text-transform: uppercase;cursor: pointer;text-decoration: none;font-size: 26px;font-family: var(--Abhaya_Libre);font-weight: 300;letter-spacing: 2px;}
         .second-half h2 {  font-size: 42px; color: #fff; letter-spacing: 2px; text-align: center; margin-bottom: 25px; }
         .second-half p { font-size: 17px;color: #fff; text-align: center;  line-height: 30px; font-family: 'Roboto'; }
-        .close-btn {padding: 10px;font-size: 16px;display: flex;justify-content: center;align-items: center;color: #b98655;/* position: absolute; */right: 6%;top: 5%;cursor: pointer;outline-offset: -4px;background-color: #b98655;color: #fff;}
+        .close-btn {padding: 10px;font-size: 16px;display: flex;justify-content: center;align-items: center;color: #b98655;/* position: absolute; */right: 6%;top: 5%;cursor: pointer;outline-offset: -4px;background-color: #b98655;color: #fff;letter-spacing: 1px;}
         .navbar-sec-mega-menu {display: flex;justify-content: center;align-items: start;flex-direction: column;gap: 100px;}
 
         .navbar-sec-mega-menu .mega-menu-logo{padding-left: 100px;}
-        .last-part img {height: 100%;}
+        .last-part img {height: 100%;object-fit: cover;}
         .mega-top-bar {
             display: flex;
             justify-content: space-between;
@@ -1913,6 +1913,11 @@ h4.renox-group-bottom-menu {
     height: 80%;
     background-color: #00000026;
 }
+.mega-social-media-icons a img {
+    width: auto;
+    height: 16px;
+}
+
 
 @media (max-width: 1600px) {
 
@@ -1965,12 +1970,12 @@ h4.renox-group-bottom-menu {
     .second-half .main-project-type {font-size: 26px;}
     a.main-project{font-size: 25px;}
 
-    .mega-menu-bottom-section {  gap: 50px; }
+    .mega-menu-bottom-section {gap: 50px;}
     .mega-menu-bottom-section .mega-download-btn a {padding: 10px 15px;font-size: 14px;width: fit-content;}
     .copyright-section {display: flex;gap: 10px;}
     .copyright-section p {font-size: 12px;}
     .mega-menu-bottom-section .mega-social-media-icons a img {width: auto;height: 16px;}
-    .last-part img {/* height: 100%; */width: 100%;object-fit: cover;}
+    .last-part img {}
     .mega-menu-middle-section {}
 
     /* banner-section */
@@ -2078,6 +2083,9 @@ h4.renox-group-bottom-menu {
 
 }
 
+
+
+
 /* end of 1600 */
 
 
@@ -2124,9 +2132,9 @@ h4.renox-group-bottom-menu {
     .about-builder p {font-size: 12px;}
 
     /* mega menu section */
-    .last-part img {width: 418px;height: 378px;}
-    .hamburder-section.open .outer-half {gap: 50px 0px;}
-    .mega-menu-middle-section {height: 70%;}
+    .last-part img {}
+    .hamburder-section.open .outer-half {}
+    .mega-menu-middle-section {}
 
    
 }
@@ -2147,6 +2155,17 @@ h4.renox-group-bottom-menu {
 }
 
 /* end of 1400 */
+
+@media(max-width:1366px){
+    .hamburder-section.open .mega-top-bar {top: 30px;  padding-left: 65px;  width: 55%;}
+h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; left: -51px;}
+.close-btn { font-size: 15px;}
+.second-half .main-project-type {font-size: 26px;margin-bottom: 41px;padding: 7px 15px;font-weight: 300; letter-spacing: 2px;}
+}
+
+@media(max-width:1280px){
+   .renox-group-bottom-menu { top: -80px; letter-spacing: 34px;font-size: 47px; left: -70px;}
+}
 
 
 @media (max-width: 767px) {
@@ -2292,19 +2311,19 @@ h4.renox-group-bottom-menu {
 
     /* Mega Menu */
     .second-half .main-project-type {font-size: 32px; padding: 10px 10px;}
-    .mega-menu ul>li a {font-size: 20px;}
+    .mega-menu ul>li a {font-size: 17px;}
     .hamburder-section.open .last-part {display: none;}
     .second-half .main-project-type,
-    .second-half .main-project {font-size: 20px;padding: 10px;margin-bottom: 30px;}
+    .second-half .main-project {font-size: 20px;padding: 10px;margin-bottom: 42px;text-align: left;border-color: #00000014;}
     .hamburder-section.open .second-half {padding: 0px;}
-    .hamburder-section.open .outer-half {padding: 0px;gap: 30px;}
+    .hamburder-section.open .outer-half {padding: 0px;gap: 19px;width: 100%;text-align: left;}
     .details-flex .sub-projects a {font-size: 20px;}
     .mega-menu-middle-section::before {content: unset;}
     .hamburder-section.open .mega-menu-bottom-section {display: flex;flex-direction: column;gap: 15px;align-items: center;justify-content: center;padding: 10px 0;}
     .copyright-section { display: flex; gap: 10px; flex-direction: column;text-align: center;}
-    .mega-menu ul>li { padding-bottom: 30px; }
-    .mega-menu-middle-section {   border-top: 1px solid #b986556e;border-bottom: 1px solid #b986556e;}
-    .mega-menu-middle-section {padding: 10px 20px 10px;display: flex;justify-content: space-between;width: 100%;height: 60vh;margin: 10px 0;}
+    .mega-menu ul>li {padding-bottom: 0px;}
+    .mega-menu-middle-section {/* border-top: 1px solid #b986556e; *//* border-bottom: 1px solid #b986556e; */}
+    .mega-menu-middle-section {padding: 5px 10px 5px;display: flex;justify-content: space-between;width: 100%;height: inherit;margin: 10px 0;gap: 10px 80px;align-items: baseline;}
     img.mega-menu-logo {width: 100px;padding: 4px 0;}
     .mega-top-bar {width: 100%;padding: 0px 15px;}
     .hamb-line { margin: 3px 0;}
@@ -2740,14 +2759,24 @@ h4.renox-group-bottom-menu {
     .loader-content .enter-website-button {padding: 20px;font-size: 16px; letter-spacing: 5px;   padding-bottom: 19px; }
     .loader-box .loader-bottom-heading { padding: 19px;text-align: center;letter-spacing: 12px;font-size: 18px;}
     video.banner-video.d_sm_block {height: auto; }
-
+    h4.renox-group-bottom-menu {letter-spacing: 10px;font-size: 24px;left: 0;position: unset;}
+    .hamburder-section.open .mega-top-bar {padding-left: 0;width: 55%;position: unset;width: 100%;display: block;padding: 0px;padding-left: 20px;padding-right: 20px;margin-top: 0px;margin-bottom: 14px;}
+    .sound-button { position: absolute;bottom: -37%; transform: scale(0.10); left: -21%;}
+    .mega-social-media-icons {display: flex;height: fit-content;align-items: center;gap: 0 20px;justify-content: center;margin-top: 40px;}
+    .hamburder-section.open .mega-menu {display: grid;}
+    .hamburder-section.open .mega-menu { height: 100%;}
+    .hamburder-section.open .second-half::after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        right: -32%;
+        width: 1px;
+        height: 80%;
+        background-color: #0000000d;
+    }
 
 } 
 
-.mega-social-media-icons a img {
-    width: auto;
-    height: 16px;
-}
 
 
 /* end of 767 */
