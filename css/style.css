@@ -898,11 +898,13 @@ from{transform:scale(0);opacity:0}
     line-height: 36px;
     font-size: 30px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .blog_detail .single .description{
     line-height: 26px;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 /* end of blog_detail */
@@ -2272,7 +2274,11 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
 
     /* contact us */
     h2.contact-main-heading {font-size: 22px;line-height: 30px; margin-bottom: 20px;}
-    h3.find-us {font-size: 22px; margin-bottom: 15px;}
+    /* h3.find-us {font-size: 22px; margin-bottom: 15px;} */
+    h3.find-us {
+        font-size: 44px;
+        margin-bottom: 25px;
+    }
     /* Our Media */
     .our-media-section {padding: 40px 0;}
     .our-media-section .our-media-head {font-size: 13px;letter-spacing: 0.6px;padding-bottom: 5px;}
