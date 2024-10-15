@@ -1750,7 +1750,7 @@ canvas#pieChart {
     font-size: 15px;
 }
 
-section#scroll-btn {position: relative;top: -7px;}
+section#scroll-btn {position: relative;top: -20px;}
 
 
 img.logo-icon {
@@ -1896,7 +1896,7 @@ section.footer-section .col-md-12.pt-lg-5 .row {gap: 0px 54px; }
 .sound-mute .sound-wave{border-radius:50%;width:0;height:0;border-width:0 15.625px 0 0}
 .sound-mute .sound-wave_one{transform:translateX(-10px)}
 .sound-mute .sound-wave_two{transform:translateX(-10px)}
-.sound-button {position: absolute;bottom: -10%;transform: scale(0.15);left: -2%;}
+.sound-button {position: absolute;bottom: -7%;transform: scale(0.15);left: -2%;}
 
 
 .second-half-right-arrow {
