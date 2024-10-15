@@ -470,11 +470,12 @@ h3.top-b-high{font-size:35px}
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            padding-left: 79px;
+            padding-left: 60px;
             padding-right: 100px;
             position: absolute;
             width: 37%;
             top: 20px;
+            z-index: 9999;
         }
         .hamburder-section.open .mega-top-bar{transform: TranslateX(0%);opacity: 1;position: absolute;top: 50px;padding-left: 65px;width: 55%;z-index: 99;}
         
@@ -1972,7 +1973,7 @@ h4.renox-group-bottom-menu {
     .header-section.fixed .project-logo-fixed {display: block;width: 92px;}
 
     /* Mega Menu */
-    .mega-top-bar {width: 58%;}
+    .mega-top-bar {width: 59%;}
     img.mega-menu-logo {width: 130px;padding: 11px;}
     .hamburder-section.open .outer-half {}
     .mega-menu ul>li a {font-size: 20px;}
