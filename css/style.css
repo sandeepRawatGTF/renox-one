@@ -544,7 +544,14 @@ h3.top-b-high{font-size:35px}
 }
 
 .banner-setion .banner img {
-    width: 100%;/*animation: 16s linear 0s infinite normal none running zoom-out;*/transition: all 0s ease-in-out 0s;border-radius: 0px;height: calc(0px + 100vh); padding-bottom: 0px;}
+    display: none;
+    width: 100%;
+    /*animation: 16s linear 0s infinite normal none running zoom-out;*/
+    transition: all 0s ease-in-out 0s;
+    border-radius: 0px;
+    height: calc(0px + 100vh);
+    padding-bottom: 0px;
+    }
 
 @keyframes zoom-out {
     0% {
@@ -1927,6 +1934,10 @@ h4.renox-group-bottom-menu {
     height: 16px;
 }
 
+video.banner-video.d_sm_none.video-ended {display: none;}
+.hide-top-banner.image-show {
+    display: block!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+}
 
 
 @media (max-width: 1600px) {
@@ -2092,6 +2103,8 @@ h4.renox-group-bottom-menu {
     .loader-content .wait-heading {font-size: 17px;}
 
 }
+
+
 
 
 
@@ -2312,7 +2325,7 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
 
     /* banner-section */
 
-    .banner-setion .banner img {height: 65vh; object-fit: cover;}
+    .banner-setion .banner img {height: auto;object-fit: cover;}
     .scroll-btn a { bottom: 0px; -webkit-transform: translateX(-50%);transform: translateX(-50%);}
     section#scroll-btn {display: none;}
     h1.animate-charcter {font-size: 30px; letter-spacing: 6px;}
@@ -2794,6 +2807,9 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
     
     .hamburder-section.open .renox-group-bottom-menu {
         display: block;}
+        video.banner-video.d_sm_block.video-ended {
+            display: none;
+        }
 
 } 
 

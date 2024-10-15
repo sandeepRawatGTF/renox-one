@@ -160,8 +160,8 @@
               <source src="images/mobile-video.mp4" type="video/mp4">
             </video>
 
-            <img src="images/desktop-banner-img.jpg" alt=" " class="img-fluid d_sm_none slider-banner">
-            <img src="images/mobile-banner-img.jpg" alt=" " class="img-fluid d_sm_block slider-banner">
+            <img src="images/banner/desktop-banner-img.jpg" alt=" " class="img-fluid d_sm_none slider-banner hide-top-banner">
+            <img src="images/banner/mobile-banner-img.jpg" alt=" " class="img-fluid d_sm_block slider-banner hide-top-banner">
 
             <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -969,6 +969,39 @@ communities and spaces where life thrives.
 
   </script>
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Select video elements
+  var desktopVideo = document.querySelector('video.d_sm_none');
+  var mobileVideo = document.querySelector('video.d_sm_block');
+  
+  // Select image elements
+  var desktopImg = document.querySelector('img.d_sm_none');
+  var mobileImg = document.querySelector('img.d_sm_block');
+
+  // Function to add class when the video ends
+  function onVideoEnd(video, img) {
+    video.classList.add('video-ended');
+    img.classList.add('image-show');
+  }
+
+  // Add event listeners for both videos
+  if (desktopVideo) {
+    desktopVideo.addEventListener('ended', function() {
+      onVideoEnd(desktopVideo, desktopImg);
+    });
+  }
+
+  if (mobileVideo) {
+    mobileVideo.addEventListener('ended', function() {
+      onVideoEnd(mobileVideo, mobileImg);
+    });
+  }
+});
+
+
+</script>
   <script>
     $(document).ready(function(){
     var spans = $('.loader-heading span');
@@ -1076,53 +1109,63 @@ communities and spaces where life thrives.
   </script>
 
   <script>
-    const prevIcon = `<img src="images/icons/prev-button.png" alt="left">`
-    const nextIcon = `<img src="images/icons/next-button.png" alt="right">`
-    $('#owl-one')
 
-      .on("initialized.owl.carousel changed.owl.carousel", function (e) {
-        if (!e.namespace) {
-          return;
+const prevIcon = '<img src="images/icons/prev-button.png" alt="left">';
+  const nextIcon = '<img src="images/icons/next-button.png" alt="right">';
+  
+  $('#owl-one')
+    .on("initialized.owl.carousel changed.owl.carousel", function (e) {
+      if (!e.namespace) {
+        return;
+      }
+      $("#counter").text(
+        e.relatedTarget.relative(e.item.index) + 1 + "/" + e.item.count
+      );
+    })
+    .owlCarousel({
+      loop: true,
+      center: true,
+      margin: 50,
+      nav: true,
+      dots: true,
+      autoplay: false,  // Disable autoplay initially
+      autoplayTimeout: 10000,
+      autoplaySpeed: 800,
+      slideTransition: 'linear',
+      smartSpeed: 750,
+      navText: [
+        prevIcon,
+        nextIcon
+      ],
+      responsive: {
+        0: {
+          items: 1,
+          margin: 20,
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        },
+        1600: {
+          items: 1
         }
-        $("#counter").text(
-          e.relatedTarget.relative(e.item.index) + 1 + "/" + e.item.count
-        );
-      })
+      }
+    });
 
-      .owlCarousel({
-        // stagePadding:400,
-        loop: true,
-        center: true,           
-        margin: 50,
-        nav: true,
-        dots: true,
-        autoplay: true,
-        autoplayTimeout: 10000,
-        autoplaySpeed: 800,
-        slideTransition: 'linear',
-        smartSpeed: 750,
-        navText: [
-          prevIcon,
-          nextIcon
-        ],
-        responsive: {
-          0: {
-            items: 1,
-            margin: 20,
-          },
-          600: {
-            items: 1
-          },
-          1000: {
-            // stagePadding: 300,
-            items: 1
-          },
-          1600: {
-            // stagePadding: 200,
-            items: 1
-          }
-        }
-      })
+  // Trigger autoplay 5 seconds after the section comes into view
+  $(window).on('scroll', function () {
+    var section = $('.project-section');
+    var sectionTop = section.offset().top;
+    var windowTop = $(window).scrollTop();
+
+    if (windowTop >= sectionTop - $(window).height()) {
+      setTimeout(function () {
+        $('#owl-one').trigger('play.owl.autoplay');
+      }, 3000);  // 5-second delay before autoplay starts
+    }
+  });
 
   </script>
 
