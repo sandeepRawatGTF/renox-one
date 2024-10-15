@@ -1935,9 +1935,15 @@ h4.renox-group-bottom-menu {
 }
 
 video.banner-video.d_sm_none.video-ended {display: none;}
-.hide-top-banner.image-show {
-    display: block!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
-}
+.hide-top-banner.image-show {display: block!important;}
+
+.container-fluid.job-page .section-head-para.text-center {width: 53%;margin: 0px auto;margin-bottom: 40px;margin-top: 100px;}
+.container-fluid.job-page h5{margin-bottom:15px;margin-top:15px}
+.container-fluid.job-page p{font-size:15px;color:#000;line-height:28px;letter-spacing:.6px;margin-bottom:35px}
+.job-page .row.row-2 {margin-bottom: 50px; align-items: center;}
+.container-fluid.job-page h4.section-head-para.section-head-para-2.text-center { margin-top: 0px;}
+.container-fluid.job-page .row.row-2  p { font-size: 13px; line-height: 24px; text-align: justify;}
+.container-fluid.job-page p{ font-size: 13px; line-height: 24px;}
 
 
 @media (max-width: 1600px) {
@@ -2155,9 +2161,6 @@ video.banner-video.d_sm_none.video-ended {display: none;}
     .about-builder p {font-size: 12px;}
 
     /* mega menu section */
-    .last-part img {}
-    .hamburder-section.open .outer-half {}
-    .mega-menu-middle-section {}
 
    
 }
@@ -2189,6 +2192,7 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
 @media(max-width:1280px){
    .renox-group-bottom-menu { top: -80px; letter-spacing: 34px;font-size: 47px; left: -70px;}
 }
+
 
 
 @media (max-width: 767px) {
