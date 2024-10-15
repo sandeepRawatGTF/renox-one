@@ -1947,7 +1947,10 @@ h4.renox-group-bottom-menu {
 video.banner-video.d_sm_none.video-ended {display: none;}
 .hide-top-banner.image-show {display: block!important;}
 
-.container-fluid.job-page .section-head-para.text-center {width: 55%;margin: 0px auto;margin-bottom: 60px;}
+.container-fluid.job-page .section-head-para.text-center {
+    !importan;!importa;!importat;!importa;!importan;!importa;!import;!impor;!impora;!impor;!impo;!imp;!im;!i;!;
+    text-align: right!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+}
 .container-fluid.job-page h5{margin-bottom:15px;margin-top:15px}
 .container-fluid.job-page p{font-size:15px;color:#000;line-height:28px;letter-spacing:.6px;margin-bottom:35px}
 .job-page .row.row-2 {margin-bottom: 50px; align-items: center;}
@@ -2041,7 +2044,7 @@ video.banner-video.d_sm_none.video-ended {display: none;}
     .overview-section .logo-icon {width: 30px;padding-bottom: 17px;}
     .section-head {font-size: 19px;}
     .overview-right-img img.img-fluid { width: 80%;height: 450px; object-fit: cover; }
-    .section-head-para {font-size: 32px; line-height:40px; margin-bottom: 30px;}
+    .section-head-para {font-size: 32px;line-height:40px;margin-bottom: 45px;}
     .overview-section p {line-height: 24px;font-size: 14px;word-spacing: 0;letter-spacing: 0.8;}
     .overview-left-img img.img-fluid { width: 90%; height: 500px; margin-top: 0px; object-fit: cover; }
     .overview-para-details.right-bottom { width: 50%; padding-top: 100px; padding-left: 40px; }
@@ -2139,7 +2142,20 @@ video.banner-video.d_sm_none.video-ended {display: none;}
 
 }
 
+.container-fluid.job-page {
+    position: relative;
+}
 
+.container-fluid.job-page::after {
+    content: "";
+    position: absolute;
+    top: 57px;
+    left: 58%;
+    width: 1px;
+    height: 80%;
+    background-color: #00000021;
+    z-index: 1;
+}
 
 
 
@@ -2850,6 +2866,15 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
         .container-fluid.job-page .section-head-para.text-center {width: 100%;margin: 0px auto;margin-bottom: 40px; margin-top: 0;}
         .contact-us .nri-form {width: 100%;    margin-top: 20px;
             padding: 22px !important;}
+
+            .container-fluid.job-page::after {
+                display:none;
+            }
+            .container-fluid.job-page .section-head-para.text-center {
+                text-align: left !important;
+            }
+
+
 
 } 
 
