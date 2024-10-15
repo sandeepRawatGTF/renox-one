@@ -1171,6 +1171,8 @@ const prevIcon = '<img src="images/icons/prev-button.png" alt="left">';
 
   <script>
 // Initialize the carousel without autoplay
+  const prevIcon1 =`<img src="images/icons/testimonial-icon/prev-button.png" alt="left">`
+  const nextIcon1 =`<img src="images/icons/testimonial-icon/next-button.png" alt="right">`  
 $('#owl-two').owlCarousel({
   loop: true,
   margin: 10,
@@ -1180,6 +1182,10 @@ $('#owl-two').owlCarousel({
   autoplayHoverPause: true,
   autoplayTimeout: 10000,
   autoplaySpeed: 3000,
+  navText:[
+  prevIcon1,
+  nextIcon1
+  ],
 
   responsive: {
     0: {
