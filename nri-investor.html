@@ -275,7 +275,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-6">
                    <div class="nri-form">
                       <h4 class="nri-form-heading">Exploring Queries, Fueling Solutions</h4>
-                      <form action="" id="nriform">
+                      <div action="" id="nriform">
                          <div class="flex-form-group">
                             <div class="form-group">
                                <input type="text" class="form-control" placeholder="Enter Name" name="name"
@@ -294,9 +294,9 @@
                             <input type="text" class="form-control" name="message" id="footerformmessage"
                                placeholder="Enter Message">
                          </div>
-                         <button type="submit" class="btn btn-custom-2" id="SubmitQueryFooter">SUBMIT
+                         <button class="btn btn-custom-2" id="SubmitQueryFooter">SUBMIT
                          NOW</button>
-                      </form>
+                      </div>
                    </div>
                 </div>
              </div>
@@ -551,6 +551,20 @@
 
             SubmitQueryData(AgentInfo, FormInfo);
         });
+
+        $("#SubmitQueryFooter").click(function () {
+           var FormInfo = {
+               "SenderControlID": "footerformname",
+               "SenderControlMobileID": "footerformphone",
+               "SenderControlEmailID": "footerformemail",
+               "SenderControlCountryCodeID": "qCountryCodeFooter",
+               "SenderControlTimeID": "qtimeslotFooter",
+               "SenderControlMsgID": "footerformmessage"
+           };
+
+           SubmitQueryData(AgentInfo, FormInfo);
+       });
+
 
     </script>
 
