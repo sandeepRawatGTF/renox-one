@@ -544,7 +544,7 @@ h3.top-b-high{font-size:35px}
 }
 
 .banner-setion .banner img {
-    display: none;
+    /* display: none; */
     width: 100%;
     /*animation: 16s linear 0s infinite normal none running zoom-out;*/
     transition: all 0s ease-in-out 0s;
