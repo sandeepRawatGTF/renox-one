@@ -2874,6 +2874,10 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
                 text-align: left !important;
             }
 
+            .banner-setion .banner.platter-page-banner img {
+                height: auto!important;
+                object-fit: cover;
+            }
 
 
 } 
