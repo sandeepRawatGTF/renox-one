@@ -2893,6 +2893,11 @@ a.blantershow-chat span.text-chat {
                 object-fit: cover;
             }
 
+            .container-fluid.job-page .career-form-main-box {
+                width: 100%;
+            }
+
+
 
 } 
 
