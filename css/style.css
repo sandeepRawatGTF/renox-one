@@ -748,10 +748,10 @@ a.blantershow-chat {
 
 .whatsapp-name{font-size:16px;font-weight:600;padding-bottom:0;margin-bottom:0;line-height:.5}
 #whatsapp-chat{box-sizing:border-box!important;outline:none!important;position:fixed;width:350px;border-radius:10px;box-shadow:0 1px 15px rgba(32,33,36,0.28);bottom:90px;right:30px;overflow:hidden;z-index:99;animation-name:showchat;animation-duration:1s;transform:scale(1);z-index: 999999;}
-a.blantershow-chat{background:#fff;color:#404040;position:fixed;display:flex;font-weight:400;justify-content:space-between;bottom: 29px;right:30px;font-size:15px;padding:10px 20px;border-radius:0px;/* box-shadow:0 1px 15px rgba(32,33,36,0.28); */z-index: 99;border-radius: 50%;width: 50px;height: 50px;text-align: center;display: flex!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;justify-content: center;padding: 0px;}
+a.blantershow-chat{background:#fff;color:#404040;position:fixed;display:flex;font-weight:400;justify-content:space-between;bottom: 29px;right:30px;font-size:15px;padding:10px 20px;border-radius:0px;/* box-shadow:0 1px 15px rgba(32,33,36,0.28); */z-index: 99;border-radius: 50%;width: 40px;height: 40px;text-align: center;display: flex!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;justify-content: center;padding: 0px;}
 
 a.blantershow-cha .text-chat{font-weight: 500;}
-a.blantershow-chat svg{transform: scale(2.5);/* margin:0 10px 0 0; */}
+a.blantershow-chat svg{transform: scale(2.2);/* margin:0 10px 0 0; */}
 .header-chat{background:#009688;background:#095e54;color:#fff;padding:20px}
 .header-chat h3{margin:0 0 10px}
 .header-chat p{font-size:14px;line-height:1.7;margin:0}
@@ -1801,10 +1801,10 @@ img.logo-icon {
 .career-form-main-box  h4.career-form-heading {color: #b98655;text-align: center; text-transform: uppercase;}
 
 .career-form-main-box .btn-custom{background-color:#a67343;color:#fff;padding:8px 20px;text-decoration:none;width:100%;border-radius:0;margin-top:15px}
-.career-form-main-box .form-group .form-control-file {width: 100%;height: 50px;line-height: 44px;font-size: 14px;}
+.career-form-main-box .form-group .form-control-file {width: 100%;height: 45px;line-height: 39px;font-size: 14px;}
 .career-form-main-box .form-control::placeholder{font-size:14px;color:#0000008f}
 .career-form-main-box .form-control{font-size:14px;color:#0000008f}
-.career-form-main-box .form-control-file::file-selector-button{border:none;border-radius:4px;color:#fff;background-color:#aa7138;border:1px solid #aa7138;cursor:pointer;transition:all .25s ease-in;cursor:pointer}
+.career-form-main-box .form-control-file::file-selector-button{border:none;border-radius:0px;color:#fff;background-color:#aa7138;border:1px solid #aa7138;cursor:pointer;transition:all .25s ease-in;cursor:pointer}
 .job-title{background-color: #ffffff;padding: 40px;}
 .job-basic{background-color: #ffffff;padding: 40px;margin-top:30px;margin-bottom: 30px;}
 .job-disc{background-color: #ffffff;padding: 40px;margin-top: 0px;margin-bottom: 0px;}
@@ -2114,7 +2114,7 @@ video.banner-video.d_sm_none.video-ended {display: none;}
 
     /* Footer Section */
     .bottom-footer-section {padding: 30px 0 30px;}
-    a.blantershow-chat { bottom: 8px; }
+    a.blantershow-chat {bottom: 30px;}
     p.btm-foot { font-size: 13px; gap: 20px;}
     section.footer-section .copyright a {font-size: 11px; }
     .footer-quick-links.footer-links>h3 {font-size: 20px;letter-spacing: 0.6px;}
@@ -2897,9 +2897,14 @@ a.blantershow-chat span.text-chat {
 } 
 
 
+
 .job-page .career-form-main-box {
-    border: 1px solid #ffffff7a !important;
+    padding: 25px;
+    outline: 1px solid #b9865554;
 }
+
+.form-control:focus { background-color: none;border-color: none; outline: 0;box-shadow: none;}
+.career-form-main-box .form-control option { background-color: #a67343;color: #fff;}
 
 /* end of 767 */
 /* end of 767 */
