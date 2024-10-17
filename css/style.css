@@ -702,7 +702,7 @@ a.blantershow-chat {
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 0px;
-    box-shadow: 0 1px 15px rgba(32,33,36,0.28);
+    box-shadow: 0 1px 15px rgb(55 55 55 / 24%);
     z-index: 99;
     text-decoration: none;
     gap: 10px;
@@ -748,10 +748,10 @@ a.blantershow-chat {
 
 .whatsapp-name{font-size:16px;font-weight:600;padding-bottom:0;margin-bottom:0;line-height:.5}
 #whatsapp-chat{box-sizing:border-box!important;outline:none!important;position:fixed;width:350px;border-radius:10px;box-shadow:0 1px 15px rgba(32,33,36,0.28);bottom:90px;right:30px;overflow:hidden;z-index:99;animation-name:showchat;animation-duration:1s;transform:scale(1);z-index: 999999;}
-a.blantershow-chat{background:#fff;color:#404040;position:fixed;display:flex;font-weight:400;justify-content:space-between;bottom: 8px;right:30px;font-size:15px;padding:10px 20px;border-radius:0px;box-shadow:0 1px 15px rgba(32,33,36,0.28);z-index: 99;}
+a.blantershow-chat{background:#fff;color:#404040;position:fixed;display:flex;font-weight:400;justify-content:space-between;bottom: 29px;right:30px;font-size:15px;padding:10px 20px;border-radius:0px;/* box-shadow:0 1px 15px rgba(32,33,36,0.28); */z-index: 99;border-radius: 50%;width: 50px;height: 50px;text-align: center;display: flex!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;justify-content: center;padding: 0px;}
 
 a.blantershow-cha .text-chat{font-weight: 500;}
-a.blantershow-chat svg{transform:scale(1.2);margin:0 10px 0 0}
+a.blantershow-chat svg{transform: scale(2.5);/* margin:0 10px 0 0; */}
 .header-chat{background:#009688;background:#095e54;color:#fff;padding:20px}
 .header-chat h3{margin:0 0 10px}
 .header-chat p{font-size:14px;line-height:1.7;margin:0}
@@ -2232,6 +2232,14 @@ section.section.contact-us  .nri-form .btn-custom-2 {
     width: 100%;
 }
 
+.container-fluid.job-page .career-form-main-box {
+    width: 63%;
+    margin-left: auto!important;
+    border: 1px solid #ffffff7a !important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+}
+
+
+
 @media(max-width:1366px){
     .hamburder-section.open .mega-top-bar {top: 30px;  padding-left: 65px;  width: 55%;}
 h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; left: -51px;}
@@ -2244,6 +2252,9 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
 }
 
 
+a.blantershow-chat span.text-chat {
+    display: none;
+}
 
 @media (max-width: 767px) {
 
@@ -2886,6 +2897,9 @@ h4.renox-group-bottom-menu {top: -80px; letter-spacing: 34px;  font-size: 47px; 
 } 
 
 
+.job-page .career-form-main-box {
+    border: 1px solid #ffffff7a !important;
+}
 
 /* end of 767 */
 /* end of 767 */
