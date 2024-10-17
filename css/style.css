@@ -2161,6 +2161,9 @@ video.banner-video.d_sm_none.video-ended {display: none;}
 
 /* end of 1600 */
 
+.slider-banner.hide-top-banner {
+    display: none;
+}
 
  @media (max-width: 1400px) {
 
