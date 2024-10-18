@@ -198,18 +198,18 @@
                  <div class="career-form">
                  <div class="jobform-flex">
                  <div class="form-group">
-                    <input type="text" class="form-control" name="name" id="canname" placeholder="Full Name">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Full Name">
                  </div>
                  <div class="form-group">
-                    <input type="email" class="form-control email-address" name="email" id="canemail" placeholder="Mail Id">
+                    <input type="email" class="form-control email-address" name="email" id="email" placeholder="Mail Id">
                  </div>
                  <div class="form-group">
-                    <input type="text" class="form-control number-only" name="phone" id="canphone" placeholder="Phone Number">                  
+                    <input type="text" class="form-control number-only" name="phone" id="phone" placeholder="Phone Number">                  
                  </div>
                  <div class="form-group">
                  <select class="form-control" id="jobs" name="jobs">
                       <option value="">Jobs</option>
-                      <option value="3">Business Development Manager</option>                           
+                      <option value="Business Development Manager">Business Development Manager</option>                           
                     
                     </select>
                  </div>
@@ -218,7 +218,7 @@
                  <div class="form-group">
                    <select class="form-control" id="experience" name="experience">
                       <option value="">Select Work Experience</option>
-                     <option value="1">Fresher</option> <option value="2">1+ year</option> <option value="3">2+ year</option> <option value="4">3+ year</option> <option value="5">4+ year</option> <option value="6">5+ year</option> <option value="7">6+ year</option> <option value="8">7+ year</option> <option value="9">8+ year</option> <option value="10">9+ year</option> <option value="11">10+ year</option>                    </select>
+                     <option value="Fresher">Fresher</option> <option value="1+ year">1+ year</option> <option value="2+ year">2+ year</option> <option value="3+ year">3+ year</option> <option value="4+ year">4+ year</option> <option value="5+ year">5+ year</option> <option value="6+ year">6+ year</option> <option value="7+ year">7+ year</option> <option value="8+ year">8+ year</option> <option value="9+ year">9+ year</option> <option value="10+ year">10+ year</option>                    </select>
                  </div>
                  <div class="form-group">
                    <textarea class="form-control" rows="5" name="message" id="message" placeholder="Message"></textarea>
@@ -573,8 +573,8 @@
         var AgentInfo = {
             "vAgentID": "4822",
             "vProject": "Renox Group",
-            "vURL": "https://renoxgroup.com/",
-           "thankspageurl": "https://renoxgroup.com/thanks.htm",
+            "vURL": "https://layout.gtftechnologies.com/layout-renox-one/",
+           "thankspageurl": "https://layout.gtftechnologies.com/layout-renox-one/thanks.htm",
         };
 
         //Needs to be duplicate in the case of multiple forms on the same page
@@ -963,6 +963,54 @@
         // Hide all sub-projects
         subProjects.forEach(subProject => subProject.style.display = 'none');
     });
+
+
+
+    
+$(document).on('submit', '#job-apply-form', function(e) {
+  e.preventDefault();
+  $("#SubmitQuery").html('Loading...');
+  $("#SubmitQuery").attr('disabled',true);
+  var formData = new FormData(this);
+  $.ajax({
+      url : 'emailto.php',
+      type: "POST",
+      data: formData,
+      dataType: 'json',
+      contentType: false,
+      cache: false,
+      processData: false,
+      success : function(resp){
+        $("#SubmitQuery").html('Submit Now');
+
+        $("#SubmitQuery").attr('disabled',false);
+        var data=JSON.parse(JSON.stringify(resp));
+        alert(data.message);
+
+        if(data.status==3){
+            $('.errors').remove();
+            var keys = Object.keys(data.errors);
+            for (let index = 0; index < keys.length; index++) {
+                debugger;
+                var keynam=keys[index];
+                $("#job-apply-form").find('#'+keynam).after('<p class="errors text-danger">'+data.errors[keynam]+'<p>');
+                if(index==0){
+                    $("#job-apply-form").find('#'+keynam).focus();
+                }
+            }
+          
+           
+
+        }else if(data.status==1){
+          window.location.reload();
+
+        } 
+
+        console.log('resp',resp);
+      }
+  })
+
+});
     
     </script>
 </body>

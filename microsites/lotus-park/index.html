@@ -698,7 +698,7 @@ connectivity unite.
               
                <div class="col-6 col-md-2">
                   <div class="footer-quick-links footer-links">
-                      <h3>All Projects</h3>
+                      <h3>Delivered Projects</h3>
                       <ul>
                         <li><a href="../../microsites/lotus-Srishti/">Lotus Srishti</a></li>
                         <li><a href="../../microsites/lotus-villas/">Lotus Villas</a></li>
@@ -710,7 +710,7 @@ connectivity unite.
                 
                 <div class="col-6 col-md-2">
                    <div class="footer-quick-links footer-links">
-                       <h3>All Projects</h3>
+                       <h3>Ongoing Projects</h3>
                        <ul>
                          <li><a href="../../microsites/renox-thrive/">Renox Thrive</a></li>
                          <li><a href="../../microsites/navrang-square/">Navrang Square Mall</a></li>
@@ -782,7 +782,7 @@ connectivity unite.
 
   <div class="enquire_fixed_btn">
      <div class="side-b whatsapp-button">
-        <a href="https://api.whatsapp.com/send?phone=+919595888899 &amp;text=Hello, Looking for 3 and 4  BHK Apartments at Lotus Park, Surajpur, Greater Noida. Get in touch with me my name is">
+        <a href="https://api.whatsapp.com/send?phone=+919595888899 &amp;text=Hello, Looking for 3 and 4  BHK Apartments at Lotus Park, Surajpur, Greater Noida. Get in touch with me my name is" target="_blank">
            <img src="images/icons/whatsapp-2.png" alt="Lotus Park" class="img-fluid icon">
            <p>WhatsApp</p>
         </a>
@@ -794,7 +794,11 @@ connectivity unite.
         </a>
      </div>
      <div class="side-b get-in-touch">
-        <a href="tel:9595888899" class="btn">
+      <a href="#" class="btn d_sm_none" data-toggle="modal" data-target="#myModal">
+         <img src="images/icons/phone.png" alt="Lotus Park" class="img-fluid icon">
+         <p> Get In <br> Touch</p>
+      </a>
+        <a href="tel:9595888899" class="btn d_sm_block">
            <img src="images/icons/phone.png" alt="Lotus Park" class="img-fluid icon">
            <p> Get In <br> Touch</p>
         </a>
@@ -862,6 +866,22 @@ connectivity unite.
       </div>
    </div>
 </div>
+
+
+
+<script>
+   (function(){
+       if (window.matchMedia("(max-width: 800px)").matches) {
+           Array.from(document.getElementsByClassName('d_sm_none')).forEach(function(item){
+               item.parentNode.removeChild(item);
+           });
+       }else{
+           Array.from(document.getElementsByClassName('d_sm_block')).forEach(function(item){
+               item.parentNode.removeChild(item);
+           });
+       }
+   })()
+</script>
 
 
   <script src="js/jquery.min.js"></script>
